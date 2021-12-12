@@ -1,22 +1,3 @@
-# 英語で楽しむFF14のための紀行録
-
-<hr />
-<p>広告</p>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9341622472626262"
-     crossorigin="anonymous"></script>
-<!-- 英語で楽しむFF14のための紀行録 記事内 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-9341622472626262"
-     data-ad-slot="4134282633"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<hr />
-
 ![ffxiv_20211115_185948_592.png](./image_e/ffxiv_20211115_185948_592.png) 
 ![ffxiv_20211115_190741_207.png](./image_e/ffxiv_20211115_190741_207.png) 
 ![ffxiv_20211115_190853_407.png](./image_e/ffxiv_20211115_190853_407.png) 
