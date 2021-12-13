@@ -8,6 +8,7 @@
     - [コピーライト](#コピーライト)
   - [紀行録](#紀行録)
     - [最初からシーソング石窟まで](#最初からシーソング石窟まで)
+    - [石窟からギルドリーヴ・宿屋開放まで](#石窟からギルドリーヴ宿屋開放まで)
 
 ## 概要
 本サイトは、[ゲレの工房](https://blog.gelehrte.com/)が企画「[英語で楽しむFF14](https://blog.gelehrte.com/archive/category/%E8%8B%B1%E8%AA%9E%E3%81%A7%E6%A5%BD%E3%81%97%E3%82%80FF14) 」のために作成されたサイトです。
@@ -30,3 +31,7 @@ Copyright © SQUARE ENIX CO., LTD. All Rights Reserved.
 ### 最初からシーソング石窟まで
 - [英語](step1/index_e.html)
 - [日本語](step1/index_j.html)
+
+### 石窟からギルドリーヴ・宿屋開放まで
+- [英語](step2/index_e.html)
+- [日本語](step2/index_j.html)
