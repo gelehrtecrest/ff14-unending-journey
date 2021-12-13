@@ -1,7 +1,7 @@
 @echo off
 
 rem 作業フォルダ
-set DIR=docs\step1
+set DIR=docs\step2
 rem 画像フォルダ
 set IMG=image_e
 rem サムネイルフォルダ
