@@ -11,5 +11,5 @@ if exist %DIR%\%OUTPUT% del %DIR%\%OUTPUT%
 rem 残りは画像ファイル
 for %%f in (%DIR%\image_e\*) do (
     echo %%~nxf
-    echo [![%%~nxf]^(./image_e/%%~nxf^)]^(./image_e/%%~nxf^) >> %DIR%\index_e.md
+    echo [![%%~nxf]^(./image_e/%%~nxf^)]^(./image_e/%%~nxf^) >> %DIR%\%OUTPUT%
 )
