@@ -7,7 +7,7 @@ set IMG=image_j
 rem サムネイルフォルダ
 set IMG_THUMB=image_j_thumb
 rem 対象
-set OUTPUT=index_e.md
+set OUTPUT=index_j.md
 
 rem 初期化
 if exist %DIR%\%OUTPUT% del %DIR%\%OUTPUT%
