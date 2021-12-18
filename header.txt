@@ -5,3 +5,4 @@
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9341622472626262"
      crossorigin="anonymous"></script>
 <div class="row">
+<a class="col-12" href="../index.html">トップに戻る</a>
