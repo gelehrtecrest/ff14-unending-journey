@@ -11,6 +11,8 @@
   - [紀行録](#紀行録)
     - [最初からシーソング石窟まで](#最初からシーソング石窟まで)
     - [石窟からギルドリーヴ・宿屋開放まで](#石窟からギルドリーヴ宿屋開放まで)
+  - [新生コンテンツ](#新生コンテンツ)
+    - [初心者の館](#初心者の館)
   - [シーズナルイベントの紀行録](#シーズナルイベントの紀行録)
     - [星芒祭2021](#星芒祭2021)
 
@@ -39,6 +41,11 @@ Copyright © SQUARE ENIX CO., LTD. All Rights Reserved.
 ### 石窟からギルドリーヴ・宿屋開放まで
 - [英語](step2/index_e.html)
 - [日本語](step2/index_j.html)
+
+## 新生コンテンツ
+### 初心者の館
+- [英語](contents/a_realm_reborn/the_Hall_of_the_Novice/index_e.html)
+- [日本語](contents/a_realm_reborn/the_Hall_of_the_Novice/index_j.html)
 
 ## シーズナルイベントの紀行録
 ### 星芒祭2021
