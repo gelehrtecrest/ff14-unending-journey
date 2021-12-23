@@ -13,6 +13,8 @@
     - [石窟からギルドリーヴ・宿屋開放まで](#石窟からギルドリーヴ宿屋開放まで)
   - [新生コンテンツ](#新生コンテンツ)
     - [初心者の館](#初心者の館)
+  - [クラス・ジョブ・ロールクエスト](#クラスジョブロールクエスト)
+    - [巴術士クエスト Lv15](#巴術士クエスト-lv15)
   - [シーズナルイベントの紀行録](#シーズナルイベントの紀行録)
     - [星芒祭2021](#星芒祭2021)
 
@@ -46,6 +48,11 @@ Copyright © SQUARE ENIX CO., LTD. All Rights Reserved.
 ### 初心者の館
 - [英語](contents/a_realm_reborn/the_Hall_of_the_Novice/index_e.html)
 - [日本語](contents/a_realm_reborn/the_Hall_of_the_Novice/index_j.html)
+
+## クラス・ジョブ・ロールクエスト
+### 巴術士クエスト Lv15
+- [英語](job_class_quest/Arcanist/15/index_e.html)
+- [日本語](job_class_quest/Arcanist/15/index_j.html)
 
 ## シーズナルイベントの紀行録
 ### 星芒祭2021
