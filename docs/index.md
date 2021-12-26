@@ -7,7 +7,7 @@
   - [概要](#概要)
     - [本サイトの目的](#本サイトの目的)
     - [利用規約](#利用規約)
-  - [紀行録](#紀行録)
+  - [新生紀行録](#新生紀行録)
     - [最初からシーソング石窟まで](#最初からシーソング石窟まで)
     - [石窟からギルドリーヴ・宿屋開放まで](#石窟からギルドリーヴ宿屋開放まで)
     - [スウィフトパーチからリムサに戻ってくるまで](#スウィフトパーチからリムサに戻ってくるまで)
@@ -15,6 +15,7 @@
     - [飛空艇でグリダニアとウルダハに](#飛空艇でグリダニアとウルダハに)
     - [ゴールドソーサーやミラージュプリズム・染色開放クエスト](#ゴールドソーサーやミラージュプリズム染色開放クエスト)
     - [サスタシャ](#サスタシャ)
+    - [タムタラ](#タムタラ)
   - [新生コンテンツ](#新生コンテンツ)
     - [初心者の館](#初心者の館)
   - [クラス・ジョブ・ロールクエスト](#クラスジョブロールクエスト)
@@ -31,46 +32,50 @@
 ### 利用規約
 本サイトの画像は[FF14](https://jp.finalfantasyxiv.com/)の画像を主に用い、その所有権はスクウェアエニクス社が保有します。そのため、本サイトはスクウェアエニクス社の指示により突然削除される可能性があります。ご了承いただければ幸いです。
 
-## 紀行録
+## 新生紀行録
 ### 最初からシーソング石窟まで
-- [英語](step1/index_e.html)
-- [日本語](step1/index_j.html)
+- [英語](./step1/index_e.html)
+- [日本語](./step1/index_j.html)
 
 ### 石窟からギルドリーヴ・宿屋開放まで
-- [英語](step2/index_e.html)
-- [日本語](step2/index_j.html)
+- [英語](./step2/index_e.html)
+- [日本語](./step2/index_j.html)
 
 ### スウィフトパーチからリムサに戻ってくるまで
-- [英語](step3/index_e.html)
-- [日本語](step3/index_j.html)
+- [英語](./step3/index_e.html)
+- [日本語](./step3/index_j.html)
 
 ### リムサの問題解決からリムサ出発まで
-- [英語](step4/index_e.html)
-- [日本語](step4/index_j.html)
+- [英語](./step4/index_e.html)
+- [日本語](./step4/index_j.html)
 
 ### 飛空艇でグリダニアとウルダハに
-- [英語](step5/index_e.html)
-- [日本語](step5/index_j.html)
+- [英語](./step5/index_e.html)
+- [日本語](./step5/index_j.html)
 
 ### ゴールドソーサーやミラージュプリズム・染色開放クエスト
-- [英語](step6/index_e.html)
-- [日本語](step6/index_j.html)
+- [英語](./step6/index_e.html)
+- [日本語](./step6/index_j.html)
 
 ### サスタシャ
-- [英語](Sastasha/index_e.html)
-- [日本語](Sastasha/index_j.html)
+- [英語](./Sastasha/index_e.html)
+- [日本語](./Sastasha/index_j.html)
+
+### タムタラ
+- [英語](./Tam-Tara/index_e.html)
+- [日本語](./Tam-Tara/index_j.html)
 
 ## 新生コンテンツ
 ### 初心者の館
-- [英語](contents/a_realm_reborn/the_Hall_of_the_Novice/index_e.html)
-- [日本語](contents/a_realm_reborn/the_Hall_of_the_Novice/index_j.html)
+- [英語](./contents/a_realm_reborn/the_Hall_of_the_Novice/index_e.html)
+- [日本語](./contents/a_realm_reborn/the_Hall_of_the_Novice/index_j.html)
 
 ## クラス・ジョブ・ロールクエスト
 ### 巴術士クエスト Lv15
-- [英語](job_class_quest/Arcanist/15/index_e.html)
-- [日本語](job_class_quest/Arcanist/15/index_j.html)
+- [英語](./job_class_quest/Arcanist/15/index_e.html)
+- [日本語](./job_class_quest/Arcanist/15/index_j.html)
 
 ## シーズナルイベントの紀行録
 ### 星芒祭2021
-- [英語](special/2021/The_Starlight_Celebration/index_e.html)
-- [日本語](special/2021/The_Starlight_Celebration/index_j.html)
+- [英語](./special/2021/The_Starlight_Celebration/index_e.html)
+- [日本語](./special/2021/The_Starlight_Celebration/index_j.html)
