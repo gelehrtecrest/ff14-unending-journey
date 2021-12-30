@@ -1,0 +1,5 @@
+		<div class="jumbotron bg-secondary">
+			<div class="container">
+				<img class="col-12" src="./image/gelehrte_crest.jpg" >
+			</div>	
+		</div>
