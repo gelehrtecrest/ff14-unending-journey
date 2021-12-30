@@ -19,6 +19,7 @@
     - [サスタシャ](#サスタシャ)
     - [タムタラ](#タムタラ)
     - [カッパーベル](#カッパーベル)
+    - [暁の血盟加入まで](#暁の血盟加入まで)
   - [新生コンテンツ](#新生コンテンツ)
     - [初心者の館](#初心者の館)
   - [クラス・ジョブ・ロールクエスト](#クラスジョブロールクエスト)
@@ -79,6 +80,10 @@ https://blog.gelehrte.com/archive/category/%E8%8B%B1%E8%AA%9E%E3%81%A7%E6%A5%BD%
 ### カッパーベル
 - [英語](./Copperbell/index_e.html)
 - [日本語](./Copperbell/index_j.html)
+
+### 暁の血盟加入まで
+- [英語](./The_Scions_of_the_Seventh_Dawn/index_e.html)
+- [日本語](./The_Scions_of_the_Seventh_Dawn/index_j.html)
 
 ## 新生コンテンツ
 ### 初心者の館
