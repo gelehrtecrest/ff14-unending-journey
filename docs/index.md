@@ -46,44 +46,44 @@ https://blog.gelehrte.com/archive/category/%E8%8B%B1%E8%AA%9E%E3%81%A7%E6%A5%BD%
 
 ## 新生紀行録
 ### 最初からシーソング石窟まで
-- [英語](./step1/index_e.html)
-- [日本語](./step1/index_j.html)
+- [英語](./001_step1/index_e.html)
+- [日本語](./001_step1/index_j.html)
 
 ### 石窟からギルドリーヴ・宿屋開放まで
-- [英語](./step2/index_e.html)
-- [日本語](./step2/index_j.html)
+- [英語](./001_step2/index_e.html)
+- [日本語](./001_step2/index_j.html)
 
 ### スウィフトパーチからリムサに戻ってくるまで
-- [英語](./step3/index_e.html)
-- [日本語](./step3/index_j.html)
+- [英語](./001_step3/index_e.html)
+- [日本語](./001_step3/index_j.html)
 
 ### リムサの問題解決からリムサ出発まで
-- [英語](./step4/index_e.html)
-- [日本語](./step4/index_j.html)
+- [英語](./001_step4/index_e.html)
+- [日本語](./001_step4/index_j.html)
 
 ### 飛空艇でグリダニアとウルダハに
-- [英語](./step5/index_e.html)
-- [日本語](./step5/index_j.html)
+- [英語](./001_step5/index_e.html)
+- [日本語](./001_step5/index_j.html)
 
 ### ゴールドソーサーやミラージュプリズム・染色開放クエスト
-- [英語](./step6/index_e.html)
-- [日本語](./step6/index_j.html)
+- [英語](./001_step6/index_e.html)
+- [日本語](./001_step6/index_j.html)
 
 ### サスタシャ
-- [英語](./Sastasha/index_e.html)
-- [日本語](./Sastasha/index_j.html)
+- [英語](./003_Sastasha/index_e.html)
+- [日本語](./003_Sastasha/index_j.html)
 
 ### タムタラ
-- [英語](./Tam-Tara/index_e.html)
-- [日本語](./Tam-Tara/index_j.html)
+- [英語](./004_Tam-Tara/index_e.html)
+- [日本語](./004_Tam-Tara/index_j.html)
 
 ### カッパーベル
-- [英語](./Copperbell/index_e.html)
-- [日本語](./Copperbell/index_j.html)
+- [英語](./005_Copperbell/index_e.html)
+- [日本語](./005_Copperbell/index_j.html)
 
 ### 暁の血盟加入まで
-- [英語](./The_Scions_of_the_Seventh_Dawn/index_e.html)
-- [日本語](./The_Scions_of_the_Seventh_Dawn/index_j.html)
+- [英語](./006_The_Scions_of_the_Seventh_Dawn/index_e.html)
+- [日本語](./006_The_Scions_of_the_Seventh_Dawn/index_j.html)
 
 ## 新生コンテンツ
 ### 初心者の館
