@@ -20,6 +20,7 @@
     - [タムタラ](#タムタラ)
     - [カッパーベル](#カッパーベル)
     - [暁の血盟加入まで](#暁の血盟加入まで)
+    - [ドライボーンへ行くまで](#ドライボーンへ行くまで)
   - [新生コンテンツ](#新生コンテンツ)
     - [初心者の館](#初心者の館)
   - [クラス・ジョブ・ロールクエスト](#クラスジョブロールクエスト)
@@ -84,6 +85,10 @@ https://blog.gelehrte.com/archive/category/%E8%8B%B1%E8%AA%9E%E3%81%A7%E6%A5%BD%
 ### 暁の血盟加入まで
 - [英語](./006_The_Scions_of_the_Seventh_Dawn/index_e.html)
 - [日本語](./006_The_Scions_of_the_Seventh_Dawn/index_j.html)
+
+### ドライボーンへ行くまで
+- [英語](./007_Drybone/index_e.html)
+- [日本語](./007_Drybone/index_j.html)
 
 ## 新生コンテンツ
 ### 初心者の館
