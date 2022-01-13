@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>イフリートの話</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="gelehrte_crest">
+<meta property="og:title" content="英語で楽しむFF14のための紀行録">
+<meta property="og:description" content="本サイトは、ゲレの工房が企画「英語で楽しむFF14」のために作成されたサイトです。現在、私のPCフォルダには大量の画像が入っています。このファイルを外部の人にも公開し、誰でも画像を見れるように紀行録として使っていただければと思います。">
+<meta property="og:image" content="https://www.gelehrte.com/ff14-unending-journey/image/gelehrte_crest.png">
+<meta property="og:url" content="https://www.gelehrte.com/ff14-unending-journey/">
+<link rel="icon" href="https://www.gelehrte.com/image/favicon.ico">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-98GV0TKBJV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-98GV0TKBJV');
+</script>
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery-3.6.0.min.js"></script>
+<script src="../js/main.js"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9341622472626262"
+     crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<div class="container">
+<div class="row">
+<a href="../index.html">トップに戻る</a>
+<div class="col-md-9"></div>
+<a href="./image_e/ffxiv_20220106_125048_920.png"><img src="./image_e_thumb/ffxiv_20220106_125048_920.png.thumb.jpg" alt="ffxiv_20220106_125048_920.png"></a>
+<a href="./image_e/ffxiv_20220106_125051_720.png"><img src="./image_e_thumb/ffxiv_20220106_125051_720.png.thumb.jpg" alt="ffxiv_20220106_125051_720.png"></a>
+<a href="./image_e/ffxiv_20220106_125053_137.png"><img src="./image_e_thumb/ffxiv_20220106_125053_137.png.thumb.jpg" alt="ffxiv_20220106_125053_137.png"></a>
+<a href="./image_e/ffxiv_20220106_125054_470.png"><img src="./image_e_thumb/ffxiv_20220106_125054_470.png.thumb.jpg" alt="ffxiv_20220106_125054_470.png"></a>
+<a href="./image_e/ffxiv_20220106_125055_720.png"><img src="./image_e_thumb/ffxiv_20220106_125055_720.png.thumb.jpg" alt="ffxiv_20220106_125055_720.png"></a>
+<a href="./image_e/ffxiv_20220106_125056_970.png"><img src="./image_e_thumb/ffxiv_20220106_125056_970.png.thumb.jpg" alt="ffxiv_20220106_125056_970.png"></a>
+<a href="./image_e/ffxiv_20220106_125058_137.png"><img src="./image_e_thumb/ffxiv_20220106_125058_137.png.thumb.jpg" alt="ffxiv_20220106_125058_137.png"></a>
+<a href="./image_e/ffxiv_20220106_125059_387.png"><img src="./image_e_thumb/ffxiv_20220106_125059_387.png.thumb.jpg" alt="ffxiv_20220106_125059_387.png"></a>
+<a href="./image_e/ffxiv_20220106_125100_637.png"><img src="./image_e_thumb/ffxiv_20220106_125100_637.png.thumb.jpg" alt="ffxiv_20220106_125100_637.png"></a>
+<a href="./image_e/ffxiv_20220106_125812_535.png"><img src="./image_e_thumb/ffxiv_20220106_125812_535.png.thumb.jpg" alt="ffxiv_20220106_125812_535.png"></a>
+<a href="./image_e/ffxiv_20220106_130153_134.png"><img src="./image_e_thumb/ffxiv_20220106_130153_134.png.thumb.jpg" alt="ffxiv_20220106_130153_134.png"></a>
+<a href="./image_e/ffxiv_20220106_130155_702.png"><img src="./image_e_thumb/ffxiv_20220106_130155_702.png.thumb.jpg" alt="ffxiv_20220106_130155_702.png"></a>
+<a href="./image_e/ffxiv_20220106_130157_068.png"><img src="./image_e_thumb/ffxiv_20220106_130157_068.png.thumb.jpg" alt="ffxiv_20220106_130157_068.png"></a>
+<a href="./image_e/ffxiv_20220106_130158_401.png"><img src="./image_e_thumb/ffxiv_20220106_130158_401.png.thumb.jpg" alt="ffxiv_20220106_130158_401.png"></a>
+<a href="./image_e/ffxiv_20220106_130159_784.png"><img src="./image_e_thumb/ffxiv_20220106_130159_784.png.thumb.jpg" alt="ffxiv_20220106_130159_784.png"></a>
+<a href="./image_e/ffxiv_20220106_130201_201.png"><img src="./image_e_thumb/ffxiv_20220106_130201_201.png.thumb.jpg" alt="ffxiv_20220106_130201_201.png"></a>
+<a href="./image_e/ffxiv_20220106_130659_783.png"><img src="./image_e_thumb/ffxiv_20220106_130659_783.png.thumb.jpg" alt="ffxiv_20220106_130659_783.png"></a>
+<a href="./image_e/ffxiv_20220106_130718_285.png"><img src="./image_e_thumb/ffxiv_20220106_130718_285.png.thumb.jpg" alt="ffxiv_20220106_130718_285.png"></a>
+<a href="./image_e/ffxiv_20220106_130723_700.png"><img src="./image_e_thumb/ffxiv_20220106_130723_700.png.thumb.jpg" alt="ffxiv_20220106_130723_700.png"></a>
+<a href="./image_e/ffxiv_20220106_130727_367.png"><img src="./image_e_thumb/ffxiv_20220106_130727_367.png.thumb.jpg" alt="ffxiv_20220106_130727_367.png"></a>
+<a href="./image_e/ffxiv_20220106_130729_750.png"><img src="./image_e_thumb/ffxiv_20220106_130729_750.png.thumb.jpg" alt="ffxiv_20220106_130729_750.png"></a>
+<a href="./image_e/ffxiv_20220106_130751_183.png"><img src="./image_e_thumb/ffxiv_20220106_130751_183.png.thumb.jpg" alt="ffxiv_20220106_130751_183.png"></a>
+<a href="./image_e/ffxiv_20220106_130754_117.png"><img src="./image_e_thumb/ffxiv_20220106_130754_117.png.thumb.jpg" alt="ffxiv_20220106_130754_117.png"></a>
+<a href="./image_e/ffxiv_20220106_130800_916.png"><img src="./image_e_thumb/ffxiv_20220106_130800_916.png.thumb.jpg" alt="ffxiv_20220106_130800_916.png"></a>
+<a href="./image_e/ffxiv_20220106_130812_350.png"><img src="./image_e_thumb/ffxiv_20220106_130812_350.png.thumb.jpg" alt="ffxiv_20220106_130812_350.png"></a>
+<a href="./image_e/ffxiv_20220106_130816_267.png"><img src="./image_e_thumb/ffxiv_20220106_130816_267.png.thumb.jpg" alt="ffxiv_20220106_130816_267.png"></a>
+<a href="./image_e/ffxiv_20220106_130823_067.png"><img src="./image_e_thumb/ffxiv_20220106_130823_067.png.thumb.jpg" alt="ffxiv_20220106_130823_067.png"></a>
+<a href="./image_e/ffxiv_20220106_130826_851.png"><img src="./image_e_thumb/ffxiv_20220106_130826_851.png.thumb.jpg" alt="ffxiv_20220106_130826_851.png"></a>
+<a href="./image_e/ffxiv_20220106_130831_950.png"><img src="./image_e_thumb/ffxiv_20220106_130831_950.png.thumb.jpg" alt="ffxiv_20220106_130831_950.png"></a>
+<a href="./image_e/ffxiv_20220106_130837_083.png"><img src="./image_e_thumb/ffxiv_20220106_130837_083.png.thumb.jpg" alt="ffxiv_20220106_130837_083.png"></a>
+<a href="./image_e/ffxiv_20220106_130840_749.png"><img src="./image_e_thumb/ffxiv_20220106_130840_749.png.thumb.jpg" alt="ffxiv_20220106_130840_749.png"></a>
+<a href="./image_e/ffxiv_20220106_130843_967.png"><img src="./image_e_thumb/ffxiv_20220106_130843_967.png.thumb.jpg" alt="ffxiv_20220106_130843_967.png"></a>
+<a href="./image_e/ffxiv_20220106_130908_916.png"><img src="./image_e_thumb/ffxiv_20220106_130908_916.png.thumb.jpg" alt="ffxiv_20220106_130908_916.png"></a>
+<a href="./image_e/ffxiv_20220106_130914_349.png"><img src="./image_e_thumb/ffxiv_20220106_130914_349.png.thumb.jpg" alt="ffxiv_20220106_130914_349.png"></a>
+<a href="./image_e/ffxiv_20220106_131021_516.png"><img src="./image_e_thumb/ffxiv_20220106_131021_516.png.thumb.jpg" alt="ffxiv_20220106_131021_516.png"></a>
+<a href="./image_e/ffxiv_20220106_131057_916.png"><img src="./image_e_thumb/ffxiv_20220106_131057_916.png.thumb.jpg" alt="ffxiv_20220106_131057_916.png"></a>
+<a href="./image_e/ffxiv_20220106_131102_966.png"><img src="./image_e_thumb/ffxiv_20220106_131102_966.png.thumb.jpg" alt="ffxiv_20220106_131102_966.png"></a>
+<a href="./image_e/ffxiv_20220106_131155_366.png"><img src="./image_e_thumb/ffxiv_20220106_131155_366.png.thumb.jpg" alt="ffxiv_20220106_131155_366.png"></a>
+<a href="./image_e/ffxiv_20220106_131202_766.png"><img src="./image_e_thumb/ffxiv_20220106_131202_766.png.thumb.jpg" alt="ffxiv_20220106_131202_766.png"></a>
+<a href="./image_e/ffxiv_20220106_131216_900.png"><img src="./image_e_thumb/ffxiv_20220106_131216_900.png.thumb.jpg" alt="ffxiv_20220106_131216_900.png"></a>
+<a href="./image_e/ffxiv_20220106_131220_299.png"><img src="./image_e_thumb/ffxiv_20220106_131220_299.png.thumb.jpg" alt="ffxiv_20220106_131220_299.png"></a>
+<a href="./image_e/ffxiv_20220106_131227_016.png"><img src="./image_e_thumb/ffxiv_20220106_131227_016.png.thumb.jpg" alt="ffxiv_20220106_131227_016.png"></a>
+<a href="./image_e/ffxiv_20220106_131733_798.png"><img src="./image_e_thumb/ffxiv_20220106_131733_798.png.thumb.jpg" alt="ffxiv_20220106_131733_798.png"></a>
+<a href="./image_e/ffxiv_20220106_131737_265.png"><img src="./image_e_thumb/ffxiv_20220106_131737_265.png.thumb.jpg" alt="ffxiv_20220106_131737_265.png"></a>
+<a href="./image_e/ffxiv_20220106_131747_349.png"><img src="./image_e_thumb/ffxiv_20220106_131747_349.png.thumb.jpg" alt="ffxiv_20220106_131747_349.png"></a>
+<a href="./image_e/ffxiv_20220106_131759_965.png"><img src="./image_e_thumb/ffxiv_20220106_131759_965.png.thumb.jpg" alt="ffxiv_20220106_131759_965.png"></a>
+<a href="./image_e/ffxiv_20220106_131804_715.png"><img src="./image_e_thumb/ffxiv_20220106_131804_715.png.thumb.jpg" alt="ffxiv_20220106_131804_715.png"></a>
+<a href="./image_e/ffxiv_20220106_131807_548.png"><img src="./image_e_thumb/ffxiv_20220106_131807_548.png.thumb.jpg" alt="ffxiv_20220106_131807_548.png"></a>
+<a href="./image_e/ffxiv_20220106_131831_248.png"><img src="./image_e_thumb/ffxiv_20220106_131831_248.png.thumb.jpg" alt="ffxiv_20220106_131831_248.png"></a>
+<a href="./image_e/ffxiv_20220106_131847_915.png"><img src="./image_e_thumb/ffxiv_20220106_131847_915.png.thumb.jpg" alt="ffxiv_20220106_131847_915.png"></a>
+<a href="./image_e/ffxiv_20220106_131850_331.png"><img src="./image_e_thumb/ffxiv_20220106_131850_331.png.thumb.jpg" alt="ffxiv_20220106_131850_331.png"></a>
+<a href="./image_e/ffxiv_20220106_133717_045.png"><img src="./image_e_thumb/ffxiv_20220106_133717_045.png.thumb.jpg" alt="ffxiv_20220106_133717_045.png"></a>
+<a href="./image_e/ffxiv_20220106_133739_078.png"><img src="./image_e_thumb/ffxiv_20220106_133739_078.png.thumb.jpg" alt="ffxiv_20220106_133739_078.png"></a>
+<a href="./image_e/ffxiv_20220106_133744_712.png"><img src="./image_e_thumb/ffxiv_20220106_133744_712.png.thumb.jpg" alt="ffxiv_20220106_133744_712.png"></a>
+<a href="./image_e/ffxiv_20220106_133747_078.png"><img src="./image_e_thumb/ffxiv_20220106_133747_078.png.thumb.jpg" alt="ffxiv_20220106_133747_078.png"></a>
+<a href="./image_e/ffxiv_20220106_133807_861.png"><img src="./image_e_thumb/ffxiv_20220106_133807_861.png.thumb.jpg" alt="ffxiv_20220106_133807_861.png"></a>
+<a href="./image_e/ffxiv_20220106_133810_528.png"><img src="./image_e_thumb/ffxiv_20220106_133810_528.png.thumb.jpg" alt="ffxiv_20220106_133810_528.png"></a>
+<a href="./image_e/ffxiv_20220106_133815_812.png"><img src="./image_e_thumb/ffxiv_20220106_133815_812.png.thumb.jpg" alt="ffxiv_20220106_133815_812.png"></a>
+<a href="./image_e/ffxiv_20220106_133817_829.png"><img src="./image_e_thumb/ffxiv_20220106_133817_829.png.thumb.jpg" alt="ffxiv_20220106_133817_829.png"></a>
+<a href="./image_e/ffxiv_20220106_133821_245.png"><img src="./image_e_thumb/ffxiv_20220106_133821_245.png.thumb.jpg" alt="ffxiv_20220106_133821_245.png"></a>
+<a href="./image_e/ffxiv_20220106_133825_179.png"><img src="./image_e_thumb/ffxiv_20220106_133825_179.png.thumb.jpg" alt="ffxiv_20220106_133825_179.png"></a>
+<a href="./image_e/ffxiv_20220106_133830_578.png"><img src="./image_e_thumb/ffxiv_20220106_133830_578.png.thumb.jpg" alt="ffxiv_20220106_133830_578.png"></a>
+<a href="./image_e/ffxiv_20220106_133832_812.png"><img src="./image_e_thumb/ffxiv_20220106_133832_812.png.thumb.jpg" alt="ffxiv_20220106_133832_812.png"></a>
+<a href="./image_e/ffxiv_20220106_133836_429.png"><img src="./image_e_thumb/ffxiv_20220106_133836_429.png.thumb.jpg" alt="ffxiv_20220106_133836_429.png"></a>
+<a href="./image_e/ffxiv_20220106_133839_278.png"><img src="./image_e_thumb/ffxiv_20220106_133839_278.png.thumb.jpg" alt="ffxiv_20220106_133839_278.png"></a>
+<a href="./image_e/ffxiv_20220106_133841_729.png"><img src="./image_e_thumb/ffxiv_20220106_133841_729.png.thumb.jpg" alt="ffxiv_20220106_133841_729.png"></a>
+<a href="./image_e/ffxiv_20220106_133855_845.png"><img src="./image_e_thumb/ffxiv_20220106_133855_845.png.thumb.jpg" alt="ffxiv_20220106_133855_845.png"></a>
+<a href="./image_e/ffxiv_20220106_133859_429.png"><img src="./image_e_thumb/ffxiv_20220106_133859_429.png.thumb.jpg" alt="ffxiv_20220106_133859_429.png"></a>
+<a href="./image_e/ffxiv_20220106_133907_395.png"><img src="./image_e_thumb/ffxiv_20220106_133907_395.png.thumb.jpg" alt="ffxiv_20220106_133907_395.png"></a>
+<a href="./image_e/ffxiv_20220106_133912_461.png"><img src="./image_e_thumb/ffxiv_20220106_133912_461.png.thumb.jpg" alt="ffxiv_20220106_133912_461.png"></a>
+<a href="./image_e/ffxiv_20220106_133918_412.png"><img src="./image_e_thumb/ffxiv_20220106_133918_412.png.thumb.jpg" alt="ffxiv_20220106_133918_412.png"></a>
+<a href="./image_e/ffxiv_20220106_133919_861.png"><img src="./image_e_thumb/ffxiv_20220106_133919_861.png.thumb.jpg" alt="ffxiv_20220106_133919_861.png"></a>
+<a href="./image_e/ffxiv_20220106_133932_011.png"><img src="./image_e_thumb/ffxiv_20220106_133932_011.png.thumb.jpg" alt="ffxiv_20220106_133932_011.png"></a>
+<a href="./image_e/ffxiv_20220106_133934_062.png"><img src="./image_e_thumb/ffxiv_20220106_133934_062.png.thumb.jpg" alt="ffxiv_20220106_133934_062.png"></a>
+<a href="./image_e/ffxiv_20220106_133935_645.png"><img src="./image_e_thumb/ffxiv_20220106_133935_645.png.thumb.jpg" alt="ffxiv_20220106_133935_645.png"></a>
+<a href="./image_e/ffxiv_20220106_133937_028.png"><img src="./image_e_thumb/ffxiv_20220106_133937_028.png.thumb.jpg" alt="ffxiv_20220106_133937_028.png"></a>
+<a href="./image_e/ffxiv_20220106_134000_128.png"><img src="./image_e_thumb/ffxiv_20220106_134000_128.png.thumb.jpg" alt="ffxiv_20220106_134000_128.png"></a>
+<a href="./image_e/ffxiv_20220106_134015_011.png"><img src="./image_e_thumb/ffxiv_20220106_134015_011.png.thumb.jpg" alt="ffxiv_20220106_134015_011.png"></a>
+<a href="./image_e/ffxiv_20220106_134034_962.png"><img src="./image_e_thumb/ffxiv_20220106_134034_962.png.thumb.jpg" alt="ffxiv_20220106_134034_962.png"></a>
+<a href="./image_e/ffxiv_20220106_134053_094.png"><img src="./image_e_thumb/ffxiv_20220106_134053_094.png.thumb.jpg" alt="ffxiv_20220106_134053_094.png"></a>
+<a href="./image_e/ffxiv_20220106_134103_044.png"><img src="./image_e_thumb/ffxiv_20220106_134103_044.png.thumb.jpg" alt="ffxiv_20220106_134103_044.png"></a>
+<a href="./image_e/ffxiv_20220106_134237_060.png"><img src="./image_e_thumb/ffxiv_20220106_134237_060.png.thumb.jpg" alt="ffxiv_20220106_134237_060.png"></a>
+<a href="./image_e/ffxiv_20220106_134247_711.png"><img src="./image_e_thumb/ffxiv_20220106_134247_711.png.thumb.jpg" alt="ffxiv_20220106_134247_711.png"></a>
+<a href="./image_e/ffxiv_20220106_134252_311.png"><img src="./image_e_thumb/ffxiv_20220106_134252_311.png.thumb.jpg" alt="ffxiv_20220106_134252_311.png"></a>
+<a href="./image_e/ffxiv_20220106_134300_761.png"><img src="./image_e_thumb/ffxiv_20220106_134300_761.png.thumb.jpg" alt="ffxiv_20220106_134300_761.png"></a>
+<a href="./image_e/ffxiv_20220106_134306_695.png"><img src="./image_e_thumb/ffxiv_20220106_134306_695.png.thumb.jpg" alt="ffxiv_20220106_134306_695.png"></a>
+<a href="./image_e/ffxiv_20220106_134315_278.png"><img src="./image_e_thumb/ffxiv_20220106_134315_278.png.thumb.jpg" alt="ffxiv_20220106_134315_278.png"></a>
+<a href="./image_e/ffxiv_20220106_134318_112.png"><img src="./image_e_thumb/ffxiv_20220106_134318_112.png.thumb.jpg" alt="ffxiv_20220106_134318_112.png"></a>
+<a href="./image_e/ffxiv_20220106_134322_244.png"><img src="./image_e_thumb/ffxiv_20220106_134322_244.png.thumb.jpg" alt="ffxiv_20220106_134322_244.png"></a>
+<a href="./image_e/ffxiv_20220106_134324_878.png"><img src="./image_e_thumb/ffxiv_20220106_134324_878.png.thumb.jpg" alt="ffxiv_20220106_134324_878.png"></a>
+<a href="./image_e/ffxiv_20220106_134338_311.png"><img src="./image_e_thumb/ffxiv_20220106_134338_311.png.thumb.jpg" alt="ffxiv_20220106_134338_311.png"></a>
+<a href="./image_e/ffxiv_20220106_134347_145.png"><img src="./image_e_thumb/ffxiv_20220106_134347_145.png.thumb.jpg" alt="ffxiv_20220106_134347_145.png"></a>
+<a href="./image_e/ffxiv_20220106_134349_878.png"><img src="./image_e_thumb/ffxiv_20220106_134349_878.png.thumb.jpg" alt="ffxiv_20220106_134349_878.png"></a>
+<a href="./image_e/ffxiv_20220106_134353_611.png"><img src="./image_e_thumb/ffxiv_20220106_134353_611.png.thumb.jpg" alt="ffxiv_20220106_134353_611.png"></a>
+<a href="./image_e/ffxiv_20220106_134358_727.png"><img src="./image_e_thumb/ffxiv_20220106_134358_727.png.thumb.jpg" alt="ffxiv_20220106_134358_727.png"></a>
+<a href="./image_e/ffxiv_20220106_134402_411.png"><img src="./image_e_thumb/ffxiv_20220106_134402_411.png.thumb.jpg" alt="ffxiv_20220106_134402_411.png"></a>
+<a href="./image_e/ffxiv_20220106_134406_228.png"><img src="./image_e_thumb/ffxiv_20220106_134406_228.png.thumb.jpg" alt="ffxiv_20220106_134406_228.png"></a>
+<a href="./image_e/ffxiv_20220106_134407_678.png"><img src="./image_e_thumb/ffxiv_20220106_134407_678.png.thumb.jpg" alt="ffxiv_20220106_134407_678.png"></a>
+<a href="./image_e/ffxiv_20220106_134411_728.png"><img src="./image_e_thumb/ffxiv_20220106_134411_728.png.thumb.jpg" alt="ffxiv_20220106_134411_728.png"></a>
+<a href="./image_e/ffxiv_20220106_134413_444.png"><img src="./image_e_thumb/ffxiv_20220106_134413_444.png.thumb.jpg" alt="ffxiv_20220106_134413_444.png"></a>
+<a href="./image_e/ffxiv_20220106_134415_677.png"><img src="./image_e_thumb/ffxiv_20220106_134415_677.png.thumb.jpg" alt="ffxiv_20220106_134415_677.png"></a>
+<a href="./image_e/ffxiv_20220106_134418_828.png"><img src="./image_e_thumb/ffxiv_20220106_134418_828.png.thumb.jpg" alt="ffxiv_20220106_134418_828.png"></a>
+<a href="./image_e/ffxiv_20220106_134425_361.png"><img src="./image_e_thumb/ffxiv_20220106_134425_361.png.thumb.jpg" alt="ffxiv_20220106_134425_361.png"></a>
+<a href="./image_e/ffxiv_20220106_134427_977.png"><img src="./image_e_thumb/ffxiv_20220106_134427_977.png.thumb.jpg" alt="ffxiv_20220106_134427_977.png"></a>
+<a href="./image_e/ffxiv_20220110_203507_291.png"><img src="./image_e_thumb/ffxiv_20220110_203507_291.png.thumb.jpg" alt="ffxiv_20220110_203507_291.png"></a>
+<a href="./image_e/ffxiv_20220110_203508_658.png"><img src="./image_e_thumb/ffxiv_20220110_203508_658.png.thumb.jpg" alt="ffxiv_20220110_203508_658.png"></a>
+<a href="./image_e/ffxiv_20220110_203509_758.png"><img src="./image_e_thumb/ffxiv_20220110_203509_758.png.thumb.jpg" alt="ffxiv_20220110_203509_758.png"></a>
+<a href="./image_e/ffxiv_20220110_203510_908.png"><img src="./image_e_thumb/ffxiv_20220110_203510_908.png.thumb.jpg" alt="ffxiv_20220110_203510_908.png"></a>
+<a href="./image_e/ffxiv_20220110_203512_041.png"><img src="./image_e_thumb/ffxiv_20220110_203512_041.png.thumb.jpg" alt="ffxiv_20220110_203512_041.png"></a>
+<a href="./image_e/ffxiv_20220110_203513_091.png"><img src="./image_e_thumb/ffxiv_20220110_203513_091.png.thumb.jpg" alt="ffxiv_20220110_203513_091.png"></a>
+<a href="./image_e/ffxiv_20220110_203514_124.png"><img src="./image_e_thumb/ffxiv_20220110_203514_124.png.thumb.jpg" alt="ffxiv_20220110_203514_124.png"></a>
+<a href="./image_e/ffxiv_20220110_204131_974.png"><img src="./image_e_thumb/ffxiv_20220110_204131_974.png.thumb.jpg" alt="ffxiv_20220110_204131_974.png"></a>
+<a href="./image_e/ffxiv_20220110_204133_807.png"><img src="./image_e_thumb/ffxiv_20220110_204133_807.png.thumb.jpg" alt="ffxiv_20220110_204133_807.png"></a>
+<a href="./image_e/ffxiv_20220110_204135_523.png"><img src="./image_e_thumb/ffxiv_20220110_204135_523.png.thumb.jpg" alt="ffxiv_20220110_204135_523.png"></a>
+<a href="./image_e/ffxiv_20220110_204137_040.png"><img src="./image_e_thumb/ffxiv_20220110_204137_040.png.thumb.jpg" alt="ffxiv_20220110_204137_040.png"></a>
+<a href="./image_e/ffxiv_20220110_204145_057.png"><img src="./image_e_thumb/ffxiv_20220110_204145_057.png.thumb.jpg" alt="ffxiv_20220110_204145_057.png"></a>
+<a href="./image_e/ffxiv_20220110_204146_490.png"><img src="./image_e_thumb/ffxiv_20220110_204146_490.png.thumb.jpg" alt="ffxiv_20220110_204146_490.png"></a>
+<a href="./image_e/ffxiv_20220110_204149_890.png"><img src="./image_e_thumb/ffxiv_20220110_204149_890.png.thumb.jpg" alt="ffxiv_20220110_204149_890.png"></a>
+<a href="./image_e/ffxiv_20220110_204151_406.png"><img src="./image_e_thumb/ffxiv_20220110_204151_406.png.thumb.jpg" alt="ffxiv_20220110_204151_406.png"></a>
+<a href="./image_e/ffxiv_20220110_204154_173.png"><img src="./image_e_thumb/ffxiv_20220110_204154_173.png.thumb.jpg" alt="ffxiv_20220110_204154_173.png"></a>
+<a href="./image_e/ffxiv_20220110_204200_722.png"><img src="./image_e_thumb/ffxiv_20220110_204200_722.png.thumb.jpg" alt="ffxiv_20220110_204200_722.png"></a>
+<a href="./image_e/ffxiv_20220110_204202_923.png"><img src="./image_e_thumb/ffxiv_20220110_204202_923.png.thumb.jpg" alt="ffxiv_20220110_204202_923.png"></a>
+<a href="./image_e/ffxiv_20220110_204206_074.png"><img src="./image_e_thumb/ffxiv_20220110_204206_074.png.thumb.jpg" alt="ffxiv_20220110_204206_074.png"></a>
+<a href="./image_e/ffxiv_20220110_204208_890.png"><img src="./image_e_thumb/ffxiv_20220110_204208_890.png.thumb.jpg" alt="ffxiv_20220110_204208_890.png"></a>
+<a href="./image_e/ffxiv_20220110_204210_673.png"><img src="./image_e_thumb/ffxiv_20220110_204210_673.png.thumb.jpg" alt="ffxiv_20220110_204210_673.png"></a>
+<a href="./image_e/ffxiv_20220110_204213_307.png"><img src="./image_e_thumb/ffxiv_20220110_204213_307.png.thumb.jpg" alt="ffxiv_20220110_204213_307.png"></a>
+<a href="./image_e/ffxiv_20220110_204216_423.png"><img src="./image_e_thumb/ffxiv_20220110_204216_423.png.thumb.jpg" alt="ffxiv_20220110_204216_423.png"></a>
+<a href="./image_e/ffxiv_20220110_204217_973.png"><img src="./image_e_thumb/ffxiv_20220110_204217_973.png.thumb.jpg" alt="ffxiv_20220110_204217_973.png"></a>
+<a href="./image_e/ffxiv_20220110_204219_706.png"><img src="./image_e_thumb/ffxiv_20220110_204219_706.png.thumb.jpg" alt="ffxiv_20220110_204219_706.png"></a>
+<a href="./image_e/ffxiv_20220110_204221_057.png"><img src="./image_e_thumb/ffxiv_20220110_204221_057.png.thumb.jpg" alt="ffxiv_20220110_204221_057.png"></a>
+<a href="./image_e/ffxiv_20220110_204223_439.png"><img src="./image_e_thumb/ffxiv_20220110_204223_439.png.thumb.jpg" alt="ffxiv_20220110_204223_439.png"></a>
+<a href="./image_e/ffxiv_20220110_204225_224.png"><img src="./image_e_thumb/ffxiv_20220110_204225_224.png.thumb.jpg" alt="ffxiv_20220110_204225_224.png"></a>
+<a href="./image_e/ffxiv_20220110_204226_539.png"><img src="./image_e_thumb/ffxiv_20220110_204226_539.png.thumb.jpg" alt="ffxiv_20220110_204226_539.png"></a>
+<a href="./image_e/ffxiv_20220110_204229_206.png"><img src="./image_e_thumb/ffxiv_20220110_204229_206.png.thumb.jpg" alt="ffxiv_20220110_204229_206.png"></a>
+<a href="./image_e/ffxiv_20220110_204230_606.png"><img src="./image_e_thumb/ffxiv_20220110_204230_606.png.thumb.jpg" alt="ffxiv_20220110_204230_606.png"></a>
+<a href="./image_e/ffxiv_20220110_204231_840.png"><img src="./image_e_thumb/ffxiv_20220110_204231_840.png.thumb.jpg" alt="ffxiv_20220110_204231_840.png"></a>
+<a href="./image_e/ffxiv_20220110_204234_341.png"><img src="./image_e_thumb/ffxiv_20220110_204234_341.png.thumb.jpg" alt="ffxiv_20220110_204234_341.png"></a>
+<a href="./image_e/ffxiv_20220110_204236_990.png"><img src="./image_e_thumb/ffxiv_20220110_204236_990.png.thumb.jpg" alt="ffxiv_20220110_204236_990.png"></a>
+<a href="./image_e/ffxiv_20220110_204238_190.png"><img src="./image_e_thumb/ffxiv_20220110_204238_190.png.thumb.jpg" alt="ffxiv_20220110_204238_190.png"></a>
+<a href="./image_e/ffxiv_20220110_204240_707.png"><img src="./image_e_thumb/ffxiv_20220110_204240_707.png.thumb.jpg" alt="ffxiv_20220110_204240_707.png"></a>
+<a href="./image_e/ffxiv_20220110_204241_874.png"><img src="./image_e_thumb/ffxiv_20220110_204241_874.png.thumb.jpg" alt="ffxiv_20220110_204241_874.png"></a>
+<a href="./image_e/ffxiv_20220110_204244_374.png"><img src="./image_e_thumb/ffxiv_20220110_204244_374.png.thumb.jpg" alt="ffxiv_20220110_204244_374.png"></a>
+<a href="./image_e/ffxiv_20220110_204247_273.png"><img src="./image_e_thumb/ffxiv_20220110_204247_273.png.thumb.jpg" alt="ffxiv_20220110_204247_273.png"></a>
+<a href="./image_e/ffxiv_20220110_204248_273.png"><img src="./image_e_thumb/ffxiv_20220110_204248_273.png.thumb.jpg" alt="ffxiv_20220110_204248_273.png"></a>
+<a href="./image_e/ffxiv_20220110_204249_723.png"><img src="./image_e_thumb/ffxiv_20220110_204249_723.png.thumb.jpg" alt="ffxiv_20220110_204249_723.png"></a>
+<a href="./image_e/ffxiv_20220110_204251_024.png"><img src="./image_e_thumb/ffxiv_20220110_204251_024.png.thumb.jpg" alt="ffxiv_20220110_204251_024.png"></a>
+<a href="./image_e/ffxiv_20220110_204253_506.png"><img src="./image_e_thumb/ffxiv_20220110_204253_506.png.thumb.jpg" alt="ffxiv_20220110_204253_506.png"></a>
+<a href="./image_e/ffxiv_20220110_204306_857.png"><img src="./image_e_thumb/ffxiv_20220110_204306_857.png.thumb.jpg" alt="ffxiv_20220110_204306_857.png"></a>
+<a href="./image_e/ffxiv_20220110_204308_423.png"><img src="./image_e_thumb/ffxiv_20220110_204308_423.png.thumb.jpg" alt="ffxiv_20220110_204308_423.png"></a>
+<a href="./image_e/ffxiv_20220110_204310_973.png"><img src="./image_e_thumb/ffxiv_20220110_204310_973.png.thumb.jpg" alt="ffxiv_20220110_204310_973.png"></a>
+<a href="./image_e/ffxiv_20220110_204312_323.png"><img src="./image_e_thumb/ffxiv_20220110_204312_323.png.thumb.jpg" alt="ffxiv_20220110_204312_323.png"></a>
+<a href="./image_e/ffxiv_20220110_204314_956.png"><img src="./image_e_thumb/ffxiv_20220110_204314_956.png.thumb.jpg" alt="ffxiv_20220110_204314_956.png"></a>
+<a href="./image_e/ffxiv_20220110_204326_623.png"><img src="./image_e_thumb/ffxiv_20220110_204326_623.png.thumb.jpg" alt="ffxiv_20220110_204326_623.png"></a>
+<a href="./image_e/ffxiv_20220110_204331_473.png"><img src="./image_e_thumb/ffxiv_20220110_204331_473.png.thumb.jpg" alt="ffxiv_20220110_204331_473.png"></a>
+</div>
+</div>
+<footer class="footer mt-auto py-3 bg-light">
+	<div class="container">
+		<p><a href="/"><span class="text-muted">ゲレの工房へ</span></a></p>
+		<p><span class="text-muted">© 2022 ゲレの工房</span></p>
+		<p><span class="text-muted">Copyright © 英語で楽しむFF14のための紀行録 Project . All rights reserved</span></p>
+		<p><span class="text-muted">Copyright © SQUARE ENIX CO., LTD. All Rights Reserved.</span></p>
+		<p><span class="text-muted">記載されている会社名・製品名・システム名などは、各社の商標、または登録商標です。当サイトは、FF14プレイヤー発起によるイベント公式サイトです。株式会社スクウェア・エニックスとは関わりはありません。</span></p>
+	</div>
+</footer>
+</body>
+</html>
