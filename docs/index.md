@@ -31,6 +31,7 @@
   - [シーズナルイベントの紀行録](#シーズナルイベントの紀行録)
     - [星芒祭2021](#星芒祭2021)
     - [降神祭2022](#降神祭2022)
+    - [守護天節2022](#守護天節2022)
 
 ## 概要
 本サイトは、[ゲレの工房](https://blog.gelehrte.com/)が企画「[英語で楽しむFF14](https://blog.gelehrte.com/archive/category/%E8%8B%B1%E8%AA%9E%E3%81%A7%E6%A5%BD%E3%81%97%E3%82%80FF14) 」のために作成されたサイトです。
@@ -124,3 +125,7 @@ https://blog.gelehrte.com/archive/category/%E8%8B%B1%E8%AA%9E%E3%81%A7%E6%A5%BD%
 ### 降神祭2022
 - [英語](./special/2022/Heavensturn/index_e.html)
 - [日本語](./special/2022/Heavensturn/index_j.html)
+
+### 守護天節2022
+- [英語](./special/2022/All_Saints_Wake/index_e.html)
+- [日本語](./special/2022/All_Saints_Wake/index_j.html)
