@@ -28,10 +28,12 @@
     - [初心者の館](#初心者の館)
   - [クラス・ジョブ・ロールクエスト](#クラスジョブロールクエスト)
     - [巴術士クエスト Lv15](#巴術士クエスト-lv15)
+    - [巴術士クエスト Lv20](#巴術士クエスト-lv20)
   - [シーズナルイベントの紀行録](#シーズナルイベントの紀行録)
     - [星芒祭2021](#星芒祭2021)
     - [降神祭2022](#降神祭2022)
     - [守護天節2022](#守護天節2022)
+    - [エッグハント2022](#エッグハント2022)
     - [ヴァレンティオンデー2022](#ヴァレンティオンデー2022)
 
 ## 概要
@@ -118,6 +120,10 @@ https://blog.gelehrte.com/archive/category/%E8%8B%B1%E8%AA%9E%E3%81%A7%E6%A5%BD%
 - [英語](./job_class_quest/Arcanist/15/index_e.html)
 - [日本語](./job_class_quest/Arcanist/15/index_j.html)
 
+### 巴術士クエスト Lv20
+- [英語](./job_class_quest/Arcanist/20/index_e.html)
+- [日本語](./job_class_quest/Arcanist/20/index_j.html)
+
 ## シーズナルイベントの紀行録
 ### 星芒祭2021
 - [英語](./special/2021/The_Starlight_Celebration/index_e.html)
@@ -130,6 +136,10 @@ https://blog.gelehrte.com/archive/category/%E8%8B%B1%E8%AA%9E%E3%81%A7%E6%A5%BD%
 ### 守護天節2022
 - [英語](./special/2022/All_Saints_Wake/index_e.html)
 - [日本語](./special/2022/All_Saints_Wake/index_j.html)
+
+### エッグハント2022
+- [英語](./special/2022/Hatching_tide/index_e.html)
+- [日本語](./special/2022/Hatching_tide/index_j.html)
 
 
 ### ヴァレンティオンデー2022
