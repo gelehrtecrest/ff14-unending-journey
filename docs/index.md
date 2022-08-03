@@ -29,6 +29,14 @@
   - [クラスジョブロールクエスト](#クラスジョブロールクエスト)
     - [巴術士クエスト Lv15](#巴術士クエスト-lv15)
     - [巴術士クエスト Lv20](#巴術士クエスト-lv20)
+    - [巴術士クエスト Lv25](#巴術士クエスト-lv25)
+    - [巴術士クエスト Lv30](#巴術士クエスト-lv30)
+    - [学者クエスト Lv30](#学者クエスト-lv30)
+    - [学者クエスト Lv35](#学者クエスト-lv35)
+    - [学者クエスト Lv40](#学者クエスト-lv40)
+    - [学者クエスト Lv45 その1](#学者クエスト-lv45-その1)
+    - [学者クエスト Lv45　その2](#学者クエスト-lv45その2)
+    - [学者クエスト Lv50](#学者クエスト-lv50)
   - [シーズナルイベントの紀行録](#シーズナルイベントの紀行録)
     - [星芒祭2021](#星芒祭2021)
     - [降神祭2022](#降神祭2022)
@@ -124,6 +132,39 @@ https://blog.gelehrte.com/archive/category/%E8%8B%B1%E8%AA%9E%E3%81%A7%E6%A5%BD%
 ### 巴術士クエスト Lv20
 - [英語](./job_class_quest/Arcanist/20/index_e.html)
 - [日本語](./job_class_quest/Arcanist/20/index_j.html)
+
+### 巴術士クエスト Lv25
+- [英語](./job_class_quest/Arcanist/25/index_e.html)
+- [日本語](./job_class_quest/Arcanist/25/index_j.html)
+
+### 巴術士クエスト Lv30
+- [英語](./job_class_quest/Arcanist/30/index_e.html)
+- [日本語](./job_class_quest/Arcanist/30/index_j.html)
+
+### 学者クエスト Lv30 
+- [英語](./job_class_quest/Scholar/30/index_e.html)
+- [日本語](./job_class_quest/Scholar/30/index_j.html)
+
+### 学者クエスト Lv35
+- [英語](./job_class_quest/Scholar/35/index_e.html)
+- [日本語](./job_class_quest/Scholar/35/index_j.html)
+
+### 学者クエスト Lv40
+- [英語](./job_class_quest/Scholar/40/index_e.html)
+- [日本語](./job_class_quest/Scholar/40/index_j.html)
+
+### 学者クエスト Lv45 その1
+- [英語](./job_class_quest/Scholar/45_1/index_e.html)
+- [日本語](./job_class_quest/Scholar/45_1/index_j.html)
+
+### 学者クエスト Lv45　その2
+- [英語](./job_class_quest/Scholar/45_2/index_e.html)
+- [日本語](./job_class_quest/Scholar/45_2/index_j.html)
+
+### 学者クエスト Lv50
+- [英語](./job_class_quest/Scholar/50/index_e.html)
+- [日本語](./job_class_quest/Scholar/50/index_j.html)
+
 
 ## シーズナルイベントの紀行録
 ### 星芒祭2021
