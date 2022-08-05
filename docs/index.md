@@ -35,7 +35,7 @@
     - [学者クエスト Lv35](#学者クエスト-lv35)
     - [学者クエスト Lv40](#学者クエスト-lv40)
     - [学者クエスト Lv45 その1](#学者クエスト-lv45-その1)
-    - [学者クエスト Lv45　その2](#学者クエスト-lv45その2)
+    - [学者クエスト Lv45 その2](#学者クエスト-lv45-その2)
     - [学者クエスト Lv50](#学者クエスト-lv50)
   - [シーズナルイベントの紀行録](#シーズナルイベントの紀行録)
     - [星芒祭2021](#星芒祭2021)
@@ -157,7 +157,7 @@ https://blog.gelehrte.com/archive/category/%E8%8B%B1%E8%AA%9E%E3%81%A7%E6%A5%BD%
 - [英語](./job_class_quest/Scholar/45_1/index_e.html)
 - [日本語](./job_class_quest/Scholar/45_1/index_j.html)
 
-### 学者クエスト Lv45　その2
+### 学者クエスト Lv45 その2
 - [英語](./job_class_quest/Scholar/45_2/index_e.html)
 - [日本語](./job_class_quest/Scholar/45_2/index_j.html)
 
