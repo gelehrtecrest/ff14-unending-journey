@@ -44,6 +44,7 @@
     - [ヴァレンティオンデー2022](#ヴァレンティオンデー2022)
     - [エッグハント2022](#エッグハント2022)
     - [ゴールドソーサーフェスティバル2022](#ゴールドソーサーフェスティバル2022)
+    - [紅蓮祭2022](#紅蓮祭2022)
 
 ## 概要
 本サイトは、[ゲレの工房](https://blog.gelehrte.com/)が企画「[英語で楽しむFF14](https://blog.gelehrte.com/archive/category/%E8%8B%B1%E8%AA%9E%E3%81%A7%E6%A5%BD%E3%81%97%E3%82%80FF14) 」のために作成されたサイトです。
@@ -194,3 +195,7 @@ https://blog.gelehrte.com/archive/category/%E8%8B%B1%E8%AA%9E%E3%81%A7%E6%A5%BD%
 ### ゴールドソーサーフェスティバル2022
 - [英語](./special/2022/the_make_it_rain_campaign/index_e.html)
 - [日本語](./special/2022/the_make_it_rain_campaign/index_j.html)
+
+### 紅蓮祭2022
+- [英語](./special/2022/Moonfire_Faire/index_e.html)
+- [日本語](./special/2022/Moonfire_Faire/index_j.html)
