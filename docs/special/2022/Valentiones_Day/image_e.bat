@@ -1,7 +1,7 @@
 @echo off
 
 rem 作業フォルダ
-set DIR=docs\special\2022\Heavensturn
+set DIR=docs\special\2022\Valentiones_Day
 rem 画像フォルダ
 set IMG=image_e
 rem サムネイルフォルダ

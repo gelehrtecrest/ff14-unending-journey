@@ -1,0 +1,5 @@
+[![ffxiv_20220210_215242_563.png](./image_e_01_1_thumb/ffxiv_20220210_215242_563.png.thumb.jpg)](./image_e_01\1/ffxiv_20220210_215242_563.png) 
+[![ffxiv_20220210_215250_080.png](./image_e_01_1_thumb/ffxiv_20220210_215250_080.png.thumb.jpg)](./image_e_01\1/ffxiv_20220210_215250_080.png) 
+[![ffxiv_20220210_215252_829.png](./image_e_01_1_thumb/ffxiv_20220210_215252_829.png.thumb.jpg)](./image_e_01\1/ffxiv_20220210_215252_829.png) 
+[![ffxiv_20220210_215254_413.png](./image_e_01_1_thumb/ffxiv_20220210_215254_413.png.thumb.jpg)](./image_e_01\1/ffxiv_20220210_215254_413.png) 
+[![ffxiv_20220210_215258_496.png](./image_e_01_1_thumb/ffxiv_20220210_215258_496.png.thumb.jpg)](./image_e_01\1/ffxiv_20220210_215258_496.png) 
