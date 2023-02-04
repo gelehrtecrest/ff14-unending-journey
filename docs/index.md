@@ -57,6 +57,7 @@
     - [新生祭2022](#新生祭2022)
     - [星芒祭2022](#星芒祭2022)
     - [降神祭2023](#降神祭2023)
+    - [ヴァレンティオンデー2023](#ヴァレンティオンデー2023)
 
 ## 概要
 
@@ -308,3 +309,7 @@
 - [英語](./special/2023/Heavensturn/index_e.html)
 - [日本語](./special/2023/Heavensturn/index_j.html)
 
+### ヴァレンティオンデー2023
+
+- [英語 全文](./special/2023/Valentiones_Day/index_e.html)
+- [日本語 全文](./special/2023/Valentiones_Day/index_j.html)
