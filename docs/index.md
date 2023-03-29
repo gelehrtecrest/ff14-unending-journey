@@ -59,6 +59,7 @@
     - [降神祭2023](#降神祭2023)
     - [ヴァレンティオンデー2023](#ヴァレンティオンデー2023)
     - [プリンセスデー2023](#プリンセスデー2023)
+    - [エッグハント2023](#エッグハント2023)
 
 ## 概要
 
@@ -320,3 +321,7 @@
 - [英語 全文](./special/2023/Little_Ladies_Day/index_e.html)
 - [日本語 全文](./special/2023/Little_Ladies_Day/index_j.html)
 
+### エッグハント2023
+
+- [英語 全文](./special/2023/Hatching_tide/index_e.html)
+- [日本語 全文](./special/2023/Hatching_tide/index_j.html)
