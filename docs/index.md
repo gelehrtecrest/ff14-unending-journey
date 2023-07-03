@@ -329,4 +329,5 @@
 
 ### ゴールドソーサーフェスティバル2023
 
-- [英語](./special/2023/the_make_it_rain_campaign/index_e.html)
+- [英語 全文](./special/2023/the_make_it_rain_campaign/index_e.html)
+- [日本語 全文](./special/2023/the_make_it_rain_campaign/index_j.html)
