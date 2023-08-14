@@ -61,6 +61,7 @@
     - [プリンセスデー2023](#プリンセスデー2023)
     - [エッグハント2023](#エッグハント2023)
     - [ゴールドソーサーフェスティバル2023](#ゴールドソーサーフェスティバル2023)
+    - [紅蓮祭2023](#紅蓮祭2023)
 
 ## 概要
 
@@ -331,3 +332,8 @@
 
 - [英語 全文](./special/2023/the_make_it_rain_campaign/index_e.html)
 - [日本語 全文](./special/2023/the_make_it_rain_campaign/index_j.html)
+
+### 紅蓮祭2023
+
+- [英語](./special/2023/Moonfire_Faire/index_e.html)
+- [日本語](./special/2023/Moonfire_Faire/index_j.html)
