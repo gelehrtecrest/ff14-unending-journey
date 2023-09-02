@@ -62,6 +62,7 @@
     - [エッグハント2023](#エッグハント2023)
     - [ゴールドソーサーフェスティバル2023](#ゴールドソーサーフェスティバル2023)
     - [紅蓮祭2023](#紅蓮祭2023)
+    - [新生祭2023](#新生祭2023)
 
 ## 概要
 
@@ -337,3 +338,8 @@
 
 - [英語](./special/2023/Moonfire_Faire/index_e.html)
 - [日本語](./special/2023/Moonfire_Faire/index_j.html)
+
+### 新生祭2023
+
+- [日本語](./special/2023/The_Rising/index_j.html)
+- [日本語 レターツリー展示場](./special/2023/The_Rising/index_j_letters.html)
