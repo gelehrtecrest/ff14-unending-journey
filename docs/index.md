@@ -341,5 +341,7 @@
 
 ### 新生祭2023
 
+- [英語](./special/2023/The_Rising/index_e.html)
+- [英語 レターツリー展示場](./special/2023/The_Rising/index_e_letters.html)
 - [日本語](./special/2023/The_Rising/index_j.html)
 - [日本語 レターツリー展示場](./special/2023/The_Rising/index_j_letters.html)
