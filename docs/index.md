@@ -63,6 +63,7 @@
     - [ゴールドソーサーフェスティバル2023](#ゴールドソーサーフェスティバル2023)
     - [紅蓮祭2023](#紅蓮祭2023)
     - [新生祭2023](#新生祭2023)
+    - [守護天節2023](#守護天節2023)
 
 ## 概要
 
@@ -345,3 +346,7 @@
 - [英語 レターツリー展示場](./special/2023/The_Rising/index_e_letters.html)
 - [日本語](./special/2023/The_Rising/index_j.html)
 - [日本語 レターツリー展示場](./special/2023/The_Rising/index_j_letters.html)
+
+### 守護天節2023
+
+- [日本語](./special/2023/All_Saints_Wake/index_j.html)
