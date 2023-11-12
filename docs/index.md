@@ -349,4 +349,5 @@
 
 ### 守護天節2023
 
+- [英語](./special/2023/All_Saints_Wake/index_e.html)
 - [日本語](./special/2023/All_Saints_Wake/index_j.html)
