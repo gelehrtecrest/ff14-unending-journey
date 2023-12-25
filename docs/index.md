@@ -64,6 +64,7 @@
     - [紅蓮祭2023](#紅蓮祭2023)
     - [新生祭2023](#新生祭2023)
     - [守護天節2023](#守護天節2023)
+    - [星芒祭2023](#星芒祭2023)
 
 ## 概要
 
@@ -351,3 +352,8 @@
 
 - [英語](./special/2023/All_Saints_Wake/index_e.html)
 - [日本語](./special/2023/All_Saints_Wake/index_j.html)
+
+### 星芒祭2023
+
+- [英語](./special/2023/Starlight_Celebration/index_e.html)
+- [日本語](./special/2023/Starlight_Celebration/index_j.html)
