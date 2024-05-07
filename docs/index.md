@@ -65,6 +65,11 @@
     - [新生祭2023](#新生祭2023)
     - [守護天節2023](#守護天節2023)
     - [星芒祭2023](#星芒祭2023)
+    - [降神祭2024](#降神祭2024)
+    - [ヴァレンティオンデー2024](#ヴァレンティオンデー2024)
+    - [プリンセスデー・エッグハント2024](#プリンセスデーエッグハント2024)
+  - [コラボ](#コラボ)
+    - [FF16](#ff16)
 
 ## 概要
 
@@ -357,3 +362,25 @@
 
 - [英語](./special/2023/Starlight_Celebration/index_e.html)
 - [日本語](./special/2023/Starlight_Celebration/index_j.html)
+
+### 降神祭2024
+
+- [英語](./special/2024/Heavensturn/index_e.html)
+- [日本語](./special/2024/Heavensturn/index_j.html)
+
+### ヴァレンティオンデー2024
+
+- [英語 全文](./special/2024/Valentiones_Day/index_e.html)
+- [日本語 全文](./special/2024/Valentiones_Day/index_j.html)
+
+### プリンセスデー・エッグハント2024
+
+- [英語 全文](./special/2024/Little_Ladies_Day_Hatching_tide/index_e.html)
+- [日本語 全文](./special/2024/Little_Ladies_Day_Hatching_tide/index_j.html)
+
+## コラボ
+
+### FF16
+
+- [英語](./special/2024/ffxvi/index_e.html)
+- [日本語](./special/2024/ffxvi/index_j.html)
