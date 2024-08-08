@@ -69,6 +69,7 @@
     - [ヴァレンティオンデー2024](#ヴァレンティオンデー2024)
     - [プリンセスデー・エッグハント2024](#プリンセスデーエッグハント2024)
     - [ゴールドソーサーフェスティバル2024](#ゴールドソーサーフェスティバル2024)
+    - [紅蓮祭2024](#紅蓮祭2024)
   - [コラボ](#コラボ)
     - [FF16](#ff16)
 
@@ -383,6 +384,11 @@
 
 - [英語 全文](./special/2024/the_make_it_rain_campaign/index_e.html)
 - [日本語 全文](./special/2024/the_make_it_rain_campaign/index_j.html)
+
+### 紅蓮祭2024
+
+- [英語 全文](./special/2024/Moonfire_Faire/index_e.html)
+- [日本語 全文](./special/2024/Moonfire_Faire/index_j.html)
 
 ## コラボ
 
