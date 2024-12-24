@@ -72,6 +72,7 @@
     - [紅蓮祭2024](#紅蓮祭2024)
     - [新生祭2024](#新生祭2024)
     - [守護天節2024](#守護天節2024)
+    - [星芒祭2024](#星芒祭2024)
   - [コラボ](#コラボ)
     - [FF16](#ff16)
 
@@ -401,6 +402,11 @@
 
 - [英語](./special/2024/All_Saints_Wake/index_e.html)
 - [日本語](./special/2024/All_Saints_Wake/index_j.html)
+
+### 星芒祭2024
+
+- [英語](./special/2024/Starlight_Celebration/index_e.html)
+- [日本語](./special/2024/Starlight_Celebration/index_j.html)
 
 ## コラボ
 
