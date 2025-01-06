@@ -1,7 +1,7 @@
 @echo off
 
 rem 作業フォルダ
-set DIR=docs\special\2024\Heavensturn
+set DIR=docs\special\2025\Heavensturn
 rem 画像フォルダ
 set IMG=image_j
 rem サムネイルフォルダ
