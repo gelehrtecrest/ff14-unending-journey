@@ -1,13 +1,13 @@
 @echo off
 
 rem 作業フォルダ
-set DIR=docs\special\2025\Heavensturn
+set DIR=docs\special\2025\Valentiones_Day
 rem 画像フォルダ
-set IMG=image_e
+set IMG=image_j
 rem サムネイルフォルダ
-set IMG_THUMB=image_e_thumb
+set IMG_THUMB=image_j_thumb
 rem 対象
-set OUTPUT=index_e.md
+set OUTPUT=index_j.md
 
 rem 初期化
 if exist %DIR%\%OUTPUT% del %DIR%\%OUTPUT%
