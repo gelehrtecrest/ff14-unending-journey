@@ -76,6 +76,7 @@
     - [降神祭2025](#降神祭2025)
     - [ヴァレンティオンデー2025](#ヴァレンティオンデー2025)
     - [プリンセスデー2025](#プリンセスデー2025)
+    - [エッグハント2025](#エッグハント2025)
   - [コラボ](#コラボ)
     - [FF16](#ff16)
 
@@ -425,6 +426,11 @@
 
 - [英語 全文](./special/2025/Little_Ladies_Day/index_e.html)
 - [日本語 全文](./special/2025/Little_Ladies_Day/index_j.html)
+
+### エッグハント2025
+
+- [英語](./special/2025/Hatching_tide/index_e.html)
+- [日本語](./special/2025/Hatching_tide/index_j.html)
 
 ## コラボ
 
