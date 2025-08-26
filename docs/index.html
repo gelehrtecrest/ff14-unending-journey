@@ -1,175 +1,832 @@
-
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ja" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:site" content="gelehrte_crest">
-	<meta property="og:title" content="英語で楽しむFF14のための紀行録">
-	<meta property="og:description" content="本サイトは、ゲレの工房が企画「英語で楽しむFF14」のために作成されたサイトです。現在、私のPCフォルダには大量の画像が入っています。このファイルを外部の人にも公開し、誰でも画像を見れるように紀行録として使っていただければと思います。">
-	<meta property="og:image" content="https://www.gelehrte.com/ff14-unending-journey/image/gelehrte_crest.png">
-	<meta property="og:url" content="https://www.gelehrte.com/ff14-unending-journey/">
-	<link rel="icon" href="https://www.gelehrte.com/image/favicon.ico">
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-98GV0TKBJV"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-	
-	  gtag('config', 'G-98GV0TKBJV');
-	</script>
-	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9341622472626262"
-	crossorigin="anonymous"></script>
     <title>英語で楽しむFF14のための紀行録</title>
-    <link rel="stylesheet" href="css/style2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/main_index.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9341622472626262" crossorigin="anonymous"></script>
 </head>
 <body>
-
-    <header>
-        <div class="header-content">
-            <h1>英語で楽しむFF14のための紀行録</h1>
-            <div class="controls">
-                <input type="text" id="search-box" placeholder="検索...">
-                <button id="theme-toggle" aria-label="Toggle theme"></button>
+    <header class="py-3 mb-4 border-bottom sticky-top bg-body-tertiary">
+        <div class="container d-flex flex-wrap justify-content-center">
+            <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
+                <span class="fs-4">FF14 紀行録</span>
+            </a>
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
+                <input type="search" id="search-box" class="form-control" placeholder="検索..." aria-label="Search">
+            </form>
+            <div class="ms-3">
+                <button class="btn btn-secondary" id="theme-toggle-button"><i class="bi bi-sun-fill"></i></button>
             </div>
         </div>
     </header>
 
     <div class="container">
         <main>
-            <section id="overview">
-                <h2>概要</h2>
-                <div class="card-container">
-                    <div class="card">
-                        <h3>本サイトの目的</h3>
-                        <p>現在、私のPCフォルダには大量の画像が入っています。このファイルを外部の人にも公開し、誰でも画像を見れるように紀行録として使っていただければと思います。</p>
-                    </div>
-                    <div class="card">
-                        <h3>「英語で楽しむFF14」としての分析</h3>
-                        <p>現在ブログの方で行っています。<a href="https://blog.gelehrte.com/archive/category/%E8%8B%B1%E8%AA%9E%E3%81%A7%E6%A5%BD%E3%81%97%E3%82%80FF14">こちらのサイト</a>から見ていただけると幸いです。<br></p>
-                    </div>
-                    <div class="card">
-                        <h3>利用規約</h3>
-                        <p>本サイトの画像は<a href="https://jp.finalfantasyxiv.com/">FF14</a>の画像を主に用い、その所有権はスクウェアエニクス社が保有します。そのため、本サイトはスクウェアエニクス社の指示により突然削除される可能性があります。ご了承いただければ幸いです。</p>
-                    </div>
-                    <div class="card">
-                        <h3>画像への直リンクについて・ダウンロードについて</h3>
-                        <p>上記にある通り、スクリーンショットの著作権はスクウェア・エニクス社が持ち、そのコピーライトはスクリーンショットに書かれてあります。また、本サイトの目的にある通り、紀行録として利用していただけることを目標に作ったサイトでもあります。<br>ですので、直リンクは自由に行っていただいて構いません。また本サイトの画像を自由にダウンロードしていただいて構いません。</p>
-                    </div>
+<section id="概要" class="mb-5">
+    <h2 class="section-title">概要</h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">本サイトの目的</h5>
+                    <ul class="list-unstyled mb-0">
+                    </ul>
                 </div>
-            </section>
-
-            <section id="main-story">
-                <h2>新生紀行録</h2>
-                <div class="card-container">
-                    <div class="card"><h3>最初からシーソング石窟まで</h3><ul><li><a href="./001_step1/index_e.html">英語</a></li><li><a href="./001_step1/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>石窟からギルドリーヴや宿屋開放まで</h3><ul><li><a href="./001_step2/index_e.html">英語</a></li><li><a href="./001_step2/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>スウィフトパーチからリムサに戻ってくるまで</h3><ul><li><a href="./001_step3/index_e.html">英語</a></li><li><a href="./001_step3/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>リムサの問題解決からリムサ出発まで</h3><ul><li><a href="./001_step4/index_e.html">英語</a></li><li><a href="./001_step4/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>飛空艇でグリダニアとウルダハに</h3><ul><li><a href="./001_step5/index_e.html">英語</a></li><li><a href="./001_step5/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>ゴールドソーサーやミラージュプリズムや染色開放クエスト</h3><ul><li><a href="./001_step6/index_e.html">英語</a></li><li><a href="./001_step6/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>サスタシャ</h3><ul><li><a href="./003_Sastasha/index_e.html">英語</a></li><li><a href="./003_Sastasha/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>タムタラ</h3><ul><li><a href="./004_Tam-Tara/index_e.html">英語</a></li><li><a href="./004_Tam-Tara/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>カッパーベル</h3><ul><li><a href="./005_Copperbell/index_e.html">英語</a></li><li><a href="./005_Copperbell/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>暁の血盟加入まで</h3><ul><li><a href="./006_The_Scions_of_the_Seventh_Dawn/index_e.html">英語</a></li><li><a href="./006_The_Scions_of_the_Seventh_Dawn/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>ドライボーンへ行くまで</h3><ul><li><a href="./007_Drybone/index_e.html">英語</a></li><li><a href="./007_Drybone/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>ドライボーンでウグストを捕まえるまで</h3><ul><li><a href="./008_Ungust/index_e.html">英語</a></li><li><a href="./008_Ungust/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>マテリアの話</h3><ul><li><a href="./009_Materia/index_e.html">英語</a></li><li><a href="./009_Materia/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>イフリートの話</h3><ul><li><a href="./010_Ifrit/index_e.html">英語</a></li><li><a href="./010_Ifrit/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>グラカンに入る話</h3><ul><li><a href="./011_A_Hero/index_e.html">英語</a></li><li><a href="./011_A_Hero/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>グラカン入隊前後の話</h3><ul><li><a href="./012_GC/index_e.html">英語</a></li><li><a href="./012_GC/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>マイチョコボ取得からバディチョコボの話</h3><ul><li><a href="./013_Chocobo/index_e.html">英語</a></li><li><a href="./013_Chocobo/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>シルフの仮宿に行くまで</h3><ul><li><a href="./014_Sylph/index_e.html">英語</a></li><li><a href="./014_Sylph/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>シルフ族の信頼を得られるまで</h3><ul><li><a href="./015_Dancing/index_e.html">英語</a></li><li><a href="./015_Dancing/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>シルフ族からバスカロンの所へ行くまで</h3><ul><li><a href="./016_Sylph2Buscarron/index_e.html">英語</a></li><li><a href="./016_Sylph2Buscarron/index_j.html">日本語</a></li></ul></div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">「英語で楽しむFF14」としての分析</h5>
+                    <ul class="list-unstyled mb-0">
+                    </ul>
                 </div>
-            </section>
-
-            <section id="contents">
-                <h2>新生コンテンツ</h2>
-                <div class="card-container">
-                    <div class="card"><h3>初心者の館</h3><ul><li><a href="./contents/a_realm_reborn/the_Hall_of_the_Novice/index_e.html">英語</a></li><li><a href="./contents/a_realm_reborn/the_Hall_of_the_Novice/index_j.html">日本語</a></li></ul></div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">利用規約</h5>
+                    <ul class="list-unstyled mb-0">
+                    </ul>
                 </div>
-            </section>
-
-            <section id="class-quest">
-                <h2>クラスジョブロールクエスト</h2>
-                <div class="card-container">
-                    <div class="card"><h3>巴術士クエスト Lv15</h3><ul><li><a href="./job_class_quest/Arcanist/15/index_e.html">英語</a></li><li><a href="./job_class_quest/Arcanist/15/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>巴術士クエスト Lv20</h3><ul><li><a href="./job_class_quest/Arcanist/20/index_e.html">英語</a></li><li><a href="./job_class_quest/Arcanist/20/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>巴術士クエスト Lv25</h3><ul><li><a href="./job_class_quest/Arcanist/25/index_e.html">英語</a></li><li><a href="./job_class_quest/Arcanist/25/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>巴術士クエスト Lv30</h3><ul><li><a href="./job_class_quest/Arcanist/30/index_e.html">英語</a></li><li><a href="./job_class_quest/Arcanist/30/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>学者クエスト Lv30</h3><ul><li><a href="./job_class_quest/Scholar/30/index_e.html">英語</a></li><li><a href="./job_class_quest/Scholar/30/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>学者クエスト Lv35</h3><ul><li><a href="./job_class_quest/Scholar/35/index_e.html">英語</a></li><li><a href="./job_class_quest/Scholar/35/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>学者クエスト Lv40</h3><ul><li><a href="./job_class_quest/Scholar/40/index_e.html">英語</a></li><li><a href="./job_class_quest/Scholar/40/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>学者クエスト Lv45 その1</h3><ul><li><a href="./job_class_quest/Scholar/45_1/index_e.html">英語</a></li><li><a href="./job_class_quest/Scholar/45_1/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>学者クエスト Lv45 その2</h3><ul><li><a href="./job_class_quest/Scholar/45_2/index_e.html">英語</a></li><li><a href="./job_class_quest/Scholar/45_2/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>学者クエスト Lv50</h3><ul><li><a href="./job_class_quest/Scholar/50/index_e.html">英語</a></li><li><a href="./job_class_quest/Scholar/50/index_j.html">日本語</a></li></ul></div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">画像への直リンクについて・ダウンロードについて</h5>
+                    <ul class="list-unstyled mb-0">
+                    </ul>
                 </div>
-            </section>
-
-            <section id="seasonal-events">
-                <h2>シーズナルイベントの紀行録</h2>
-                <div class="card-container">
-                    <div class="card"><h3>星芒祭2021</h3><ul><li><a href="./special/2021/The_Starlight_Celebration/index_e.html">英語</a></li><li><a href="./special/2021/The_Starlight_Celebration/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>降神祭2022</h3><ul><li><a href="./special/2022/Heavensturn/index_e.html">英語</a></li><li><a href="./special/2022/Heavensturn/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>守護天節2022</h3><ul><li><a href="./special/2022/All_Saints_Wake/index_e.html">英語</a></li><li><a href="./special/2022/All_Saints_Wake/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>守護天節2022その2</h3><ul><li><a href="./special/2022/All_Saints_Wake_2/index_e.html">英語</a></li><li><a href="./special/2022/All_Saints_Wake_2/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>ヴァレンティオンデー2022</h3><ul><li><a href="./special/2022/Valentiones_Day/index_e.html">英語 全文</a></li><li><a href="./special/2022/Valentiones_Day/index_e_01_1.html">英語 口笛粉屋の選択肢1</a></li><li><a href="./special/2022/Valentiones_Day/index_e_01_2_3.html">英語 口笛粉屋の選択肢2と3</a></li><li><a href="./special/2022/Valentiones_Day/index_e_02_1.html">英語 返信のアイデアの選択肢1</a></li><li><a href="./special/2022/Valentiones_Day/index_e_02_2.html">英語 返信のアイデアの選択肢2</a></li><li><a href="./special/2022/Valentiones_Day/index_e_02_3.html">英語 返信のアイデアの選択肢3</a></li><li><a href="./special/2022/Valentiones_Day/index_j.html">日本語 全文</a></li><li><a href="./special/2022/Valentiones_Day/index_j_01_1.html">日本語 口笛粉屋の選択肢1</a></li><li><a href="./special/2022/Valentiones_Day/index_j_01_2_3.html">日本語 口笛粉屋の選択肢2と3</a></li><li><a href="./special/2022/Valentiones_Day/index_j_02_1.html">日本語 返信のアイデアの選択肢1</a></li><li><a href="./special/2022/Valentiones_Day/index_j_02_2.html">日本語 返信のアイデアの選択肢2</a></li><li><a href="./special/2022/Valentiones_Day/index_j_02_3.html">日本語 返信のアイデアの選択肢3</a></li></ul></div>
-                    <div class="card"><h3>エッグハント2022</h3><ul><li><a href="./special/2022/Hatching_tide/index_e.html">英語</a></li><li><a href="./special/2022/Hatching_tide/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>ゴールドソーサーフェスティバル2022</h3><ul><li><a href="./special/2022/the_make_it_rain_campaign/index_e.html">英語</a></li><li><a href="./special/2022/the_make_it_rain_campaign/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>紅蓮祭2022</h3><ul><li><a href="./special/2022/Moonfire_Faire/index_e.html">英語</a></li><li><a href="./special/2022/Moonfire_Faire/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>新生祭2022</h3><ul><li><a href="./special/2022/The_Rising/index_e.html">英語</a></li><li><a href="./special/2022/The_Rising/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>星芒祭2022</h3><ul><li><a href="./special/2022/The_Starlight_Celebration/index_e.html">英語</a></li><li><a href="./special/2022/The_Starlight_Celebration/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>降神祭2023</h3><ul><li><a href="./special/2023/Heavensturn/index_e.html">英語</a></li><li><a href="./special/2023/Heavensturn/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>ヴァレンティオンデー2023</h3><ul><li><a href="./special/2023/Valentiones_Day/index_e.html">英語 全文</a></li><li><a href="./special/2023/Valentiones_Day/index_j.html">日本語 全文</a></li></ul></div>
-                    <div class="card"><h3>プリンセスデー2023</h3><ul><li><a href="./special/2023/Little_Ladies_Day/index_e.html">英語 全文</a></li><li><a href="./special/2023/Little_Ladies_Day/index_j.html">日本語 全文</a></li></ul></div>
-                    <div class="card"><h3>エッグハント2023</h3><ul><li><a href="./special/2023/Hatching_tide/index_e.html">英語 全文</a></li><li><a href="./special/2023/Hatching_tide/index_j.html">日本語 全文</a></li></ul></div>
-                    <div class="card"><h3>ゴールドソーサーフェスティバル2023</h3><ul><li><a href="./special/2023/the_make_it_rain_campaign/index_e.html">英語 全文</a></li><li><a href="./special/2023/the_make_it_rain_campaign/index_j.html">日本語 全文</a></li></ul></div>
-                    <div class="card"><h3>紅蓮祭2023</h3><ul><li><a href="./special/2023/Moonfire_Faire/index_e.html">英語</a></li><li><a href="./special/2023/Moonfire_Faire/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>新生祭2023</h3><ul><li><a href="./special/2023/The_Rising/index_e.html">英語</a></li><li><a href="./special/2023/The_Rising/index_e_letters.html">英語 レターツリー展示場</a></li><li><a href="./special/2023/The_Rising/index_j.html">日本語</a></li><li><a href="./special/2023/The_Rising/index_j_letters.html">日本語 レターツリー展示場</a></li></ul></div>
-                    <div class="card"><h3>守護天節2023</h3><ul><li><a href="./special/2023/All_Saints_Wake/index_e.html">英語</a></li><li><a href="./special/2023/All_Saints_Wake/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>星芒祭2023</h3><ul><li><a href="./special/2023/Starlight_Celebration/index_e.html">英語</a></li><li><a href="./special/2023/Starlight_Celebration/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>降神祭2024</h3><ul><li><a href="./special/2024/Heavensturn/index_e.html">英語</a></li><li><a href="./special/2024/Heavensturn/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>ヴァレンティオンデー2024</h3><ul><li><a href="./special/2024/Valentiones_Day/index_e.html">英語 全文</a></li><li><a href="./special/2024/Valentiones_Day/index_j.html">日本語 全文</a></li></ul></div>
-                    <div class="card"><h3>プリンセスデー・エッグハント2024</h3><ul><li><a href="./special/2024/Little_Ladies_Day_Hatching_tide/index_e.html">英語 全文</a></li><li><a href="./special/2024/Little_Ladies_Day_Hatching_tide/index_j.html">日本語 全文</a></li></ul></div>
-                    <div class="card"><h3>ゴールドソーサーフェスティバル2024</h3><ul><li><a href="./special/2024/the_make_it_rain_campaign/index_e.html">英語 全文</a></li><li><a href="./special/2024/the_make_it_rain_campaign/index_j.html">日本語 全文</a></li></ul></div>
-                    <div class="card"><h3>紅蓮祭2024</h3><ul><li><a href="./special/2024/Moonfire_Faire/index_e.html">英語 全文</a></li><li><a href="./special/2024/Moonfire_Faire/index_j.html">日本語 全文</a></li></ul></div>
-                    <div class="card"><h3>新生祭2024</h3><ul><li><a href="./special/2024/The_Rising/index_e.html">英語</a></li><li><a href="./special/2024/The_Rising/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>守護天節2024</h3><ul><li><a href="./special/2024/All_Saints_Wake/index_e.html">英語</a></li><li><a href="./special/2024/All_Saints_Wake/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>星芒祭2024</h3><ul><li><a href="./special/2024/Starlight_Celebration/index_e.html">英語</a></li><li><a href="./special/2024/Starlight_Celebration/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>降神祭2025</h3><ul><li><a href="./special/2025/Heavensturn/index_e.html">英語</a></li><li><a href="./special/2025/Heavensturn/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>ヴァレンティオンデー2025</h3><ul><li><a href="./special/2025/Valentiones_Day/index_e.html">英語 全文</a></li><li><a href="./special/2025/Valentiones_Day/index_j.html">日本語 全文</a></li></ul></div>
-                    <div class="card"><h3>プリンセスデー2025</h3><ul><li><a href="./special/2025/Little_Ladies_Day/index_e.html">英語 全文</a></li><li><a href="./special/2025/Little_Ladies_Day/index_j.html">日本語 全文</a></li></ul></div>
-                    <div class="card"><h3>エッグハント2025</h3><ul><li><a href="./special/2025/Hatching_tide/index_e.html">英語</a></li><li><a href="./special/2025/Hatching_tide/index_j.html">日本語</a></li></ul></div>
-                    <div class="card"><h3>ゴールドソーサーフェスティバル2025</h3><ul><li><a href="./special/2025/the_make_it_rain_campaign/index_e.html">英語 全文</a></li><li><a href="./special/2025/the_make_it_rain_campaign/index_j.html">日本語 全文</a></li></ul></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="新生紀行録" class="mb-5">
+    <h2 class="section-title">新生紀行録</h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">最初からシーソング石窟まで</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./001_step1/index_e.html">英語</a></li>
+                        <li><a href="./001_step1/index_j.html">日本語</a></li>
+                    </ul>
                 </div>
-            </section>
-
-            <section id="collab">
-                <h2>コラボ</h2>
-                <div class="card-container">
-                    <div class="card"><h3>FF16</h3><ul><li><a href="./special/2024/ffxvi/index_e.html">英語</a></li><li><a href="./special/2024/ffxvi/index_j.html">日本語</a></li></ul></div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">石窟からギルドリーヴや宿屋開放まで</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./001_step2/index_e.html">英語</a></li>
+                        <li><a href="./001_step2/index_j.html">日本語</a></li>
+                    </ul>
                 </div>
-            </section>
-
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">スウィフトパーチからリムサに戻ってくるまで</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./001_step3/index_e.html">英語</a></li>
+                        <li><a href="./001_step3/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">リムサの問題解決からリムサ出発まで</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./001_step4/index_e.html">英語</a></li>
+                        <li><a href="./001_step4/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">飛空艇でグリダニアとウルダハに</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./001_step5/index_e.html">英語</a></li>
+                        <li><a href="./001_step5/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">ゴールドソーサーやミラージュプリズムや染色開放クエスト</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./001_step6/index_e.html">英語</a></li>
+                        <li><a href="./001_step6/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">サスタシャ</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./003_Sastasha/index_e.html">英語</a></li>
+                        <li><a href="./003_Sastasha/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">タムタラ</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./004_Tam-Tara/index_e.html">英語</a></li>
+                        <li><a href="./004_Tam-Tara/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">カッパーベル</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./005_Copperbell/index_e.html">英語</a></li>
+                        <li><a href="./005_Copperbell/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">暁の血盟加入まで</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./006_The_Scions_of_the_Seventh_Dawn/index_e.html">英語</a></li>
+                        <li><a href="./006_The_Scions_of_the_Seventh_Dawn/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">ドライボーンへ行くまで</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./007_Drybone/index_e.html">英語</a></li>
+                        <li><a href="./007_Drybone/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">ドライボーンでウグストを捕まえるまで</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./008_Ungust/index_e.html">英語</a></li>
+                        <li><a href="./008_Ungust/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">マテリアの話</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./009_Materia/index_e.html">英語</a></li>
+                        <li><a href="./009_Materia/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">イフリートの話</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./010_Ifrit/index_e.html">英語</a></li>
+                        <li><a href="./010_Ifrit/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">グラカンに入る話</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./011_A_Hero/index_e.html">英語</a></li>
+                        <li><a href="./011_A_Hero/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">グラカン入隊前後の話</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./012_GC/index_e.html">英語</a></li>
+                        <li><a href="./012_GC/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">マイチョコボ取得からバディチョコボの話</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./013_Chocobo/index_e.html">英語</a></li>
+                        <li><a href="./013_Chocobo/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">シルフの仮宿に行くまで</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./014_Sylph/index_e.html">英語</a></li>
+                        <li><a href="./014_Sylph/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">シルフ族の信頼を得られるまで</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./015_Dancing/index_e.html">英語</a></li>
+                        <li><a href="./015_Dancing/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">シルフ族からバスカロンの所へ行くまで</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./016_Sylph2Buscarron/index_e.html">英語</a></li>
+                        <li><a href="./016_Sylph2Buscarron/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="新生コンテンツ" class="mb-5">
+    <h2 class="section-title">新生コンテンツ</h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">初心者の館</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./contents/a_realm_reborn/the_Hall_of_the_Novice/index_e.html">英語</a></li>
+                        <li><a href="./contents/a_realm_reborn/the_Hall_of_the_Novice/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="クラスジョブロールクエスト" class="mb-5">
+    <h2 class="section-title">クラスジョブロールクエスト</h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">巴術士クエスト Lv15</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./job_class_quest/Arcanist/15/index_e.html">英語</a></li>
+                        <li><a href="./job_class_quest/Arcanist/15/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">巴術士クエスト Lv20</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./job_class_quest/Arcanist/20/index_e.html">英語</a></li>
+                        <li><a href="./job_class_quest/Arcanist/20/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">巴術士クエスト Lv25</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./job_class_quest/Arcanist/25/index_e.html">英語</a></li>
+                        <li><a href="./job_class_quest/Arcanist/25/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">巴術士クエスト Lv30</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./job_class_quest/Arcanist/30/index_e.html">英語</a></li>
+                        <li><a href="./job_class_quest/Arcanist/30/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">学者クエスト Lv30</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./job_class_quest/Scholar/30/index_e.html">英語</a></li>
+                        <li><a href="./job_class_quest/Scholar/30/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">学者クエスト Lv35</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./job_class_quest/Scholar/35/index_e.html">英語</a></li>
+                        <li><a href="./job_class_quest/Scholar/35/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">学者クエスト Lv40</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./job_class_quest/Scholar/40/index_e.html">英語</a></li>
+                        <li><a href="./job_class_quest/Scholar/40/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">学者クエスト Lv45 その1</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./job_class_quest/Scholar/45_1/index_e.html">英語</a></li>
+                        <li><a href="./job_class_quest/Scholar/45_1/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">学者クエスト Lv45 その2</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./job_class_quest/Scholar/45_2/index_e.html">英語</a></li>
+                        <li><a href="./job_class_quest/Scholar/45_2/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">学者クエスト Lv50</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./job_class_quest/Scholar/50/index_e.html">英語</a></li>
+                        <li><a href="./job_class_quest/Scholar/50/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="シーズナルイベントの紀行録" class="mb-5">
+    <h2 class="section-title">シーズナルイベントの紀行録</h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">星芒祭2021</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2021/The_Starlight_Celebration/index_e.html">英語</a></li>
+                        <li><a href="./special/2021/The_Starlight_Celebration/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">降神祭2022</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2022/Heavensturn/index_e.html">英語</a></li>
+                        <li><a href="./special/2022/Heavensturn/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">守護天節2022</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2022/All_Saints_Wake/index_e.html">英語</a></li>
+                        <li><a href="./special/2022/All_Saints_Wake/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">守護天節2022その2</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2022/All_Saints_Wake_2/index_e.html">英語</a></li>
+                        <li><a href="./special/2022/All_Saints_Wake_2/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">ヴァレンティオンデー2022</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2022/Valentiones_Day/index_e.html">英語 全文</a></li>
+                        <li><a href="./special/2022/Valentiones_Day/index_e_01_1.html">英語 口笛粉屋の選択肢1</a></li>
+                        <li><a href="./special/2022/Valentiones_Day/index_e_01_2_3.html">英語 口笛粉屋の選択肢2と3</a></li>
+                        <li><a href="./special/2022/Valentiones_Day/index_e_02_1.html">英語 返信のアイデアの選択肢1</a></li>
+                        <li><a href="./special/2022/Valentiones_Day/index_e_02_2.html">英語 返信のアイデアの選択肢2</a></li>
+                        <li><a href="./special/2022/Valentiones_Day/index_e_02_3.html">英語 返信のアイデアの選択肢3</a></li>
+                        <li><a href="./special/2022/Valentiones_Day/index_j.html">日本語 全文</a></li>
+                        <li><a href="./special/2022/Valentiones_Day/index_j_01_1.html">日本語 口笛粉屋の選択肢1</a></li>
+                        <li><a href="./special/2022/Valentiones_Day/index_j_01_2_3.html">日本語 口笛粉屋の選択肢2と3</a></li>
+                        <li><a href="./special/2022/Valentiones_Day/index_j_02_1.html">日本語 返信のアイデアの選択肢1</a></li>
+                        <li><a href="./special/2022/Valentiones_Day/index_j_02_2.html">日本語 返信のアイデアの選択肢2</a></li>
+                        <li><a href="./special/2022/Valentiones_Day/index_j_02_3.html">日本語 返信のアイデアの選択肢3</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">エッグハント2022</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2022/Hatching_tide/index_e.html">英語</a></li>
+                        <li><a href="./special/2022/Hatching_tide/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">ゴールドソーサーフェスティバル2022</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2022/the_make_it_rain_campaign/index_e.html">英語</a></li>
+                        <li><a href="./special/2022/the_make_it_rain_campaign/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">紅蓮祭2022</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2022/Moonfire_Faire/index_e.html">英語</a></li>
+                        <li><a href="./special/2022/Moonfire_Faire/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">新生祭2022</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2022/The_Rising/index_e.html">英語</a></li>
+                        <li><a href="./special/2022/The_Rising/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">星芒祭2022</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2022/The_Starlight_Celebration/index_e.html">英語</a></li>
+                        <li><a href="./special/2022/The_Starlight_Celebration/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">降神祭2023</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2023/Heavensturn/index_e.html">英語</a></li>
+                        <li><a href="./special/2023/Heavensturn/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">ヴァレンティオンデー2023</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2023/Valentiones_Day/index_e.html">英語 全文</a></li>
+                        <li><a href="./special/2023/Valentiones_Day/index_j.html">日本語 全文</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">プリンセスデー2023</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2023/Little_Ladies_Day/index_e.html">英語 全文</a></li>
+                        <li><a href="./special/2023/Little_Ladies_Day/index_j.html">日本語 全文</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">エッグハント2023</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2023/Hatching_tide/index_e.html">英語 全文</a></li>
+                        <li><a href="./special/2023/Hatching_tide/index_j.html">日本語 全文</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">ゴールドソーサーフェスティバル2023</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2023/the_make_it_rain_campaign/index_e.html">英語 全文</a></li>
+                        <li><a href="./special/2023/the_make_it_rain_campaign/index_j.html">日本語 全文</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">紅蓮祭2023</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2023/Moonfire_Faire/index_e.html">英語</a></li>
+                        <li><a href="./special/2023/Moonfire_Faire/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">新生祭2023</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2023/The_Rising/index_e.html">英語</a></li>
+                        <li><a href="./special/2023/The_Rising/index_e_letters.html">英語 レターツリー展示場</a></li>
+                        <li><a href="./special/2023/The_Rising/index_j.html">日本語</a></li>
+                        <li><a href="./special/2023/The_Rising/index_j_letters.html">日本語 レターツリー展示場</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">守護天節2023</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2023/All_Saints_Wake/index_e.html">英語</a></li>
+                        <li><a href="./special/2023/All_Saints_Wake/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">星芒祭2023</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2023/Starlight_Celebration/index_e.html">英語</a></li>
+                        <li><a href="./special/2023/Starlight_Celebration/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">降神祭2024</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2024/Heavensturn/index_e.html">英語</a></li>
+                        <li><a href="./special/2024/Heavensturn/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">ヴァレンティオンデー2024</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2024/Valentiones_Day/index_e.html">英語 全文</a></li>
+                        <li><a href="./special/2024/Valentiones_Day/index_j.html">日本語 全文</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">プリンセスデー・エッグハント2024</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2024/Little_Ladies_Day_Hatching_tide/index_e.html">英語 全文</a></li>
+                        <li><a href="./special/2024/Little_Ladies_Day_Hatching_tide/index_j.html">日本語 全文</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">ゴールドソーサーフェスティバル2024</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2024/the_make_it_rain_campaign/index_e.html">英語 全文</a></li>
+                        <li><a href="./special/2024/the_make_it_rain_campaign/index_j.html">日本語 全文</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">紅蓮祭2024</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2024/Moonfire_Faire/index_e.html">英語 全文</a></li>
+                        <li><a href="./special/2024/Moonfire_Faire/index_j.html">日本語 全文</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">新生祭2024</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2024/The_Rising/index_e.html">英語</a></li>
+                        <li><a href="./special/2024/The_Rising/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">守護天節2024</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2024/All_Saints_Wake/index_e.html">英語</a></li>
+                        <li><a href="./special/2024/All_Saints_Wake/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">星芒祭2024</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2024/Starlight_Celebration/index_e.html">英語</a></li>
+                        <li><a href="./special/2024/Starlight_Celebration/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">降神祭2025</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2025/Heavensturn/index_e.html">英語</a></li>
+                        <li><a href="./special/2025/Heavensturn/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">ヴァレンティオンデー2025</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2025/Valentiones_Day/index_e.html">英語 全文</a></li>
+                        <li><a href="./special/2025/Valentiones_Day/index_j.html">日本語 全文</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">プリンセスデー2025</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2025/Little_Ladies_Day/index_e.html">英語 全文</a></li>
+                        <li><a href="./special/2025/Little_Ladies_Day/index_j.html">日本語 全文</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">エッグハント2025</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2025/Hatching_tide/index_e.html">英語</a></li>
+                        <li><a href="./special/2025/Hatching_tide/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">ゴールドソーサーフェスティバル2025</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2025/the_make_it_rain_campaign/index_e.html">英語 全文</a></li>
+                        <li><a href="./special/2025/the_make_it_rain_campaign/index_j.html">日本語 全文</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">紅蓮祭2025</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2025/Moonfire_Faire/index_e.html">英語</a></li>
+                        <li><a href="./special/2025/Moonfire_Faire/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="コラボ" class="mb-5">
+    <h2 class="section-title">コラボ</h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+            <div class="card h-100 card-item">
+                <div class="card-body">
+                    <h5 class="card-title">FF16</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./special/2024/ffxvi/index_e.html">英語</a></li>
+                        <li><a href="./special/2024/ffxvi/index_j.html">日本語</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
         </main>
 
-        <footer>
-		<p><a href="/"><span class="text-muted">ゲレの工房へ</span></a></p>
-        <p><span class="text-muted">&copy; 2024 ゲレの工房</span></p>
-		<p><span class="text-muted">Copyright © 英語で楽しむFF14のための紀行録 Project . All rights reserved</span></p>
-		<p><span class="text-muted">Copyright &copy; SQUARE ENIX CO., LTD. All Rights Reserved.</span></p>
-		<p><span class="text-muted">記載されている会社名・製品名・システム名などは、各社の商標、または登録商標です。当サイトは、FF14プレイヤー発起によるイベント公式サイトです。株式会社スクウェア・エニックスとは関わりはありません。</span></p>
+        <footer class="py-4 my-4 border-top">
+            <p class="text-center text-body-secondary">© 2024 ゲレの工房 | Copyright © SQUARE ENIX CO., LTD. All Rights Reserved.</p>
         </footer>
     </div>
 
-    <script src="js/main2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main_index.js"></script>
 </body>
 </html>
