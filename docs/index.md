@@ -443,6 +443,11 @@
 - [英語](./special/2025/Moonfire_Faire/index_e.html)
 - [日本語](./special/2025/Moonfire_Faire/index_j.html)
 
+### 新生祭2025
+
+- [英語](./special/2025/The_Rising/index_e.html)
+- [日本語](./special/2025/The_Rising/index_j.html)
+
 ## コラボ
 
 ### FF16
