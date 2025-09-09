@@ -49,7 +49,7 @@ def generate_thumbnails(project_root, target_dir_rel, language):
                 )
 
                 # Write markdown line
-                f.write(f"[![{{filename}}](./image_{{language}}_thumb/{{thumb_filename}})](./image_{{language}}/{filename})\n\n")
+                f.write(f"[![{filename}](./image_{language}_thumb/{thumb_filename})](./image_{language}/{filename})\n\n")
         print(f"Successfully generated markdown file: {md_file}")
 
     except subprocess.CalledProcessError as e:
