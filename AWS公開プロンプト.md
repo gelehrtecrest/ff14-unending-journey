@@ -50,9 +50,34 @@
     aws s3 sync ./docs s3://gelehrte.com/ff14-unending-journey/ --delete
     ```
 
-2.  **完了**:
-    -   コマンドが成功すると、`docs` ディレクトリの内容がS3バケットにアップロード（同期）されます。
-    -   ブラウザで `http://gelehrte.com/ff14-unending-journey/index.html` にアクセスし、サイトが正しく表示されるか確認してください。
+### ステップ3: CloudFrontキャッシュのクリア（必要な場合）
+
+S3にファイルをアップロードしても、CloudFront（CDN）に古いキャッシュが残っていると、ブラウザで変更が反映されないことがあります。その場合は、キャッシュを手動でクリア（Invalidation）する必要があります。
+
+1.  **ディストリビューションIDの確認**
+    サイト (`www.gelehrte.com`) に関連付けられたCloudFrontのディストリビューションIDを以下のコマンドで確認します。
+
+    ```bash
+    aws cloudfront list-distributions --query "DistributionList.Items[?Aliases.Items[?@=='www.gelehrte.com']].Id | [0]" --output text
+    ```
+
+2.  **キャッシュのクリアを実行**
+    取得したディストリビューションIDを使って、特定のファイルのキャッシュをクリアします。`<YOUR_DISTRIBUTION_ID>` の部分を、上記で取得したIDに置き換えてください。
+
+    -   **特定のファイルのみクリアする場合 (例: index.html)**
+        ```bash
+        aws cloudfront create-invalidation --distribution-id <YOUR_DISTRIBUTION_ID> --paths "/ff14-unending-journey/index.html"
+        ```
+
+    -   **サイト全体のキャッシュをクリアする場合**
+        サイト全体に大きな変更を加えた場合は、以下のコマンドで全てのファイルのキャッシュをクリアできます。
+        ```bash
+        aws cloudfront create-invalidation --distribution-id <YOUR_DISTRIBUTION_ID> --paths "/*"
+        ```
+
+3.  **完了**:
+    -   コマンドが成功すると、キャッシュの無効化リクエストが作成されます。反映には数分かかることがあります。
+    -   ブラウザで `https://www.gelehrte.com/ff14-unending-journey/index.html` にアクセスし、サイトが正しく更新されているか確認してください。（必要であればスーパーリロード `Ctrl+F5` を試してください）
 
 ---
 
@@ -63,5 +88,6 @@
 -   `s3://gelehrte.com/ff14-unending-journey/`: 同期先となるS3バケット名 (`gelehrte.com`) と、その中のフォルダ（プレフィックス `ff14-unending-journey/`）を指定します。
 -   `--dryrun`: 実行される内容を事前に確認します。
 -   `--delete`: 同期元に存在しないファイルを、同期先から削除します。
+-   `aws cloudfront create-invalidation`: CloudFrontのキャッシュを無効化します。
 
-**注意:** このコマンドでファイルが公開されるためには、S3バケットに適切な「バケットポリシー」が設定されている必要があります。もしアップロード後にファイルが表示されない場合は、S3バケットのアクセス許可設定をご確認ください。
+**注意:** S3同期コマンドでファイルが公開されるためには、S3バケットに適切な「バケットポリシー」が設定されている必要があります。もしアップロード後にファイルが表示されない場合は、S3バケットのアクセス許可設定をご確認ください。
