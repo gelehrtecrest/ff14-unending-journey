@@ -448,6 +448,11 @@
 - [英語](./special/2025/The_Rising/index_e.html)
 - [日本語](./special/2025/The_Rising/index_j.html)
 
+### 守護天節2025
+
+- [英語](./special/2025/All_Saints_Wake/index_e.html)
+- [日本語](./special/2025/All_Saints_Wake/index_j.html)
+
 ## コラボ
 
 ### FF16
